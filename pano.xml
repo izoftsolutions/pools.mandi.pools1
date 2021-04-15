@@ -17,10 +17,10 @@
     <hotspots width="180" height="20" wordwrap="1">
       <label textcolor="0xffffff" border="1" borderalpha="1" width="180" enabled="1" textalpha="1" height="20" bordercolor="0x000000" backgroundalpha="1" wordwrap="1" background="1" borderradius="1" backgroundcolor="0x000000"/>
       <polystyle mode="1" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" backgroundcolor="0x0000ff"/>
-      <hotspot id="Point01" pan="-173.57" fov="5.3985" tilt="-19.53" description="" use3D="1" url="{node2}" customimage="media/iconfinder_ic_pin_drop_48px_352071.png" target="85.6/-10.6/100.0" title="Bar" customimageheight="50" distance3D="530.271" skinid="ht_node" customimagewidth="50"/>
+      <hotspot id="Point01" pan="-173.57" tilt="-19.53" description="" url="{node2}" target="85.6/-10.6/100.0" title="Bar" skinid="ht_node"/>
       <hotspot id="Point09" distance="4.1933" pan="42.0566" tilt="0" description="" url="{node10}" target="$fwd" title="South West Pool" skinid="ht_node"/>
       <hotspot id="Point10" pan="-126.75" tilt="-31.59" description="" url="https://www.facebook.com/pages/category/Construction-Company/AM-Pools-and-Patios-109141054072204/" target="_blank" title="Info" skinid="ht_url"/>
-      <hotspot id="Point11" distance="8.42683" pan="-149.69" fov="5.3985" tilt="-10.08" description="" use3D="1" url="{node6}" customimage="media/iconfinder_ic_pin_drop_48px_352071.png" target="78.5/-14.2/100.0" title="North West Pool" customimageheight="512" distance3D="5429.98" skinid="ht_node" customimagewidth="512"/>
+      <hotspot id="Point11" distance="8.42683" pan="-149.69" tilt="-10.08" description="" url="{node6}" target="78.5/-14.2/100.0" title="North West Pool" skinid="ht_node"/>
       <hotspot id="Point12" pan="-100.57" tilt="-36.36" description="" url="images/22687973_1131394833663271_1389604421866254538_n.jpg" target="" title="Contact" skinid="ht_image"/>
       <hotspot id="Point13" distance="8.9836" pan="-124.87" fov="4.05" tilt="-9.11" description="" use3D="1" url="{node8}" customimage="media/iconfinder_Google_Icons-01_7123032.png" target="64.2/-29.7/92.4" title="" customimageheight="512" distance3D="7240.3" skinid="ht_node" customimagewidth="512"/>
       <hotspot id="Point03" pan="-144.68" tilt="-23.9" description="A&amp;m Pools &amp; Patios LLC, 220 NW 123rd Ave, Miami, FL " url="https://www.facebook.com/pages/category/Construction-Company/AM-Pools-and-Patios-109141054072204/" target="_blank" title="Info" skinid="ht_info"/>
@@ -50,11 +50,11 @@
     <hotspots width="180" height="20" wordwrap="1">
       <label textcolor="0xffffff" border="1" borderalpha="1" width="180" enabled="1" textalpha="1" height="20" bordercolor="0x000000" backgroundalpha="1" wordwrap="1" background="1" borderradius="1" backgroundcolor="0x000000"/>
       <polystyle mode="1" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" backgroundcolor="0x0000ff"/>
-      <hotspot id="Point01" pan="-104.75" tilt="-9.35" description="" url="{node1}" target="0.1/-16.6/100.0" title="South East Pool" skinid="ht_node"/>
+      <hotspot id="Point01" pan="-111.6" tilt="-19.2" description="" url="{node1}" target="0.1/-16.6/100.0" title="South East Pool" skinid="ht_node"/>
       <hotspot id="Point03" pan="-313.15" fov="10" tilt="-27.86" description="Bar under pool to enjoy Margaritas, Mojitos and more" use3D="0" url="" customimage="media/iconfinder_ic_pin_drop_48px_352071.png" target="" title="Bar" customimageheight="44" distance3D="251.461" skinid="ht_info" customimagewidth="44"/>
-      <hotspot id="Point04" distance="5.61789" pan="-266.89" fov="8.37594" tilt="-10.13" description="" use3D="1" url="{node5}" customimage="media/iconfinder_ic_pin_drop_48px_352071.png" target="95.2/-24.9/100.0" title="North Pool" customimageheight="512" distance3D="3496.11" skinid="ht_node" customimagewidth="512"/>
+      <hotspot id="Point04" distance="5.61789" pan="-266.89" tilt="-10.13" description="" url="{node5}" target="95.2/-24.9/100.0" title="North Pool" skinid="ht_node"/>
       <hotspot id="Point06" distance="8.9836" pan="-208.44" fov="10" tilt="-10.93" description="" use3D="0" url="{node8}" customimage="media/iconfinder_Google_Icons-01_7123032.png" target="61.5/-43.6/92.4" title="Jacuzzi" customimageheight="64" distance3D="365.762" skinid="ht_node" customimagewidth="64"/>
-      <hotspot id="Point02" distance="4.1933" pan="-163.31" fov="8.917289999999999" tilt="-13.88" description="" use3D="1" url="{node10}" customimage="media/iconfinder_ic_pin_drop_48px_352071.png" target="-167.8/-21.5/100.0" title="South West Pool" customimageheight="512" distance3D="3283.08" skinid="ht_node" customimagewidth="512"/>
+      <hotspot id="Point02" distance="4.1933" pan="-163.31" tilt="-13.88" description="" url="{node10}" target="-167.8/-21.5/100.0" title="South West Pool" skinid="ht_node"/>
     </hotspots>
     <media/>
     <transition zoomout="0" zoomfov="20" zoomafterinfov="90" zoomoutpause="1" enabled="1" blendtime="1" zoomin="0" softedge="0" zoomafteroutfov="20" blendcolor="0x000000" type="crossdissolve" zoomspeed="2"/>
@@ -78,9 +78,9 @@
     <hotspots width="180" height="20" wordwrap="1">
       <label textcolor="0xffffff" border="1" borderalpha="1" width="180" enabled="1" textalpha="1" height="20" bordercolor="0x000000" backgroundalpha="1" wordwrap="1" background="1" borderradius="1" backgroundcolor="0x000000"/>
       <polystyle mode="1" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" backgroundcolor="0x0000ff"/>
-      <hotspot id="Point02" distance="2.80894" pan="-301.67" tilt="-7.77" description="" url="{node5}" target="95.3/-17.0/100.0" title="North East Pool" skinid="ht_node"/>
-      <hotspot id="Point05" distance="3.11346" pan="-232.79" tilt="-9.43" description="" url="{node8}" target="64.1/-26.7/92.4" title="Jacuzzi" skinid="ht_node"/>
-      <hotspot id="Point01" distance="10.4779" pan="-174.43" tilt="-9.41" description="" url="{node11}" target="" title="South Pool" skinid="ht_node"/>
+      <hotspot id="Point02" distance="2.80894" pan="-299.65" tilt="-10.75" description="" url="{node5}" target="95.3/-17.0/100.0" title="North East Pool" skinid="ht_node"/>
+      <hotspot id="Point05" distance="3.11346" pan="-231.5" fov="10" tilt="-9.54" description="" use3D="1" url="{node8}" customimage="media/iconfinder_Google_Icons-01_7123032.png" target="64.1/-26.7/92.4" title="Jacuzzi" customimageheight="512" distance3D="2926.09" skinid="ht_node" customimagewidth="512"/>
+      <hotspot id="Point01" distance="10.4779" pan="-175.05" tilt="-12.86" description="" url="{node11}" target="" title="South Pool" skinid="ht_node"/>
     </hotspots>
     <media/>
     <transition zoomout="0" zoomfov="20" zoomafterinfov="90" zoomoutpause="1" enabled="1" blendtime="1" zoomin="0" softedge="0" zoomafteroutfov="20" blendcolor="0x000000" type="crossdissolve" zoomspeed="2"/>
@@ -104,8 +104,8 @@
     <hotspots width="180" height="20" wordwrap="1">
       <label textcolor="0xffffff" border="1" borderalpha="1" width="180" enabled="1" textalpha="1" height="20" bordercolor="0x000000" backgroundalpha="1" wordwrap="1" background="1" borderradius="1" backgroundcolor="0x000000"/>
       <polystyle mode="1" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" backgroundcolor="0x0000ff"/>
-      <hotspot id="Point01" distance="4.1933" pan="-199.6" tilt="-21.3" description="" url="{node3}" target="168.9/-25.3/100.0" title="Bar 2" skinid="ht_node"/>
-      <hotspot id="Point02" distance="3.11346" pan="-293.82" tilt="-21.79" description="" url="{node5}" target="92.8/-20.8/100.0" title="North Pool" skinid="ht_node"/>
+      <hotspot id="Point01" distance="4.1933" pan="-203.7" tilt="-20.46" description="" url="{node3}" target="168.9/-25.3/100.0" title="Bar 2" skinid="ht_node"/>
+      <hotspot id="Point02" distance="3.11346" pan="-294.61" tilt="-20.21" description="" url="{node5}" target="92.8/-20.8/100.0" title="North Pool" skinid="ht_node"/>
       <hotspot id="Point03" distance="6.42295" pan="-61.0046" tilt="0" description="" url="{node1}" target="$fwd" title="South East Pool" skinid="ht_node"/>
       <hotspot id="Point04" distance="6.42295" pan="-61.0046" tilt="0" description="" url="{node2}" target="$fwd" title="Bar" skinid="ht_node"/>
       <hotspot id="Point08" distance="6.83115" pan="-24.28" tilt="0" description="" url="{node10}" target="$fwd" title="South West Pool" skinid="ht_node"/>
@@ -163,7 +163,7 @@
     <hotspots width="180" height="20" wordwrap="1">
       <label textcolor="0xffffff" border="1" borderalpha="1" width="180" enabled="1" textalpha="1" height="20" bordercolor="0x000000" backgroundalpha="1" wordwrap="1" background="1" borderradius="1" backgroundcolor="0x000000"/>
       <polystyle mode="1" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" backgroundcolor="0x0000ff"/>
-      <hotspot id="Point01" distance="2.80894" pan="-210.56" tilt="-17.3" description="" url="{node5}" target="95.2/-24.9/100.0" title="North Pool" skinid="ht_node"/>
+      <hotspot id="Point01" distance="2.80894" pan="-220.21" tilt="-24.24" description="" url="{node5}" target="95.2/-24.9/100.0" title="North Pool" skinid="ht_node"/>
       <hotspot id="Point02" pan="-313.95" tilt="-12.38" description="" url="{node7}" target="34.7/-29.9/100.0" title="Jacuzzi Left" skinid="ht_node"/>
       <hotspot id="Point03" distance="10.4779" pan="-292.47" tilt="-3.54" description="" url="{node11}" target="-172.3/-27.3/100.0" title="South Pool" skinid="ht_node"/>
       <hotspot id="Point04" distance="8.42683" pan="-90" tilt="0" description="" url="{node1}" target="$fwd" title="South East Pool" skinid="ht_node"/>
