@@ -5,7 +5,36 @@
     <panorama>
       <id>node1</id>
       <input>
-        <patch/>
+        <patch>
+          <imagepatch>
+            <pan>0</pan>
+            <tilt>-90</tilt>
+            <fov>50</fov>
+            <roll>-135.131</roll>
+            <aspectratio>1</aspectratio>
+            <applyafterlevelling>0</applyafterlevelling>
+            <locked>1</locked>
+            <quality>90</quality>
+            <filename>patches/IMG_20210408_165718_00_116_patch.psd</filename>
+            <type>image</type>
+            <blurintensity>10</blurintensity>
+            <lastmodified>2021-04-09T18:21:02</lastmodified>
+          </imagepatch>
+          <imagepatch>
+            <pan>-351.84</pan>
+            <tilt>-42.15</tilt>
+            <fov>50</fov>
+            <roll>0</roll>
+            <aspectratio>1</aspectratio>
+            <applyafterlevelling>0</applyafterlevelling>
+            <locked>1</locked>
+            <quality>90</quality>
+            <filename>patches/IMG_20210408_165718_00_116_patch_1.psd</filename>
+            <type>image</type>
+            <blurintensity>10</blurintensity>
+            <lastmodified>2021-04-09T18:23:46</lastmodified>
+          </imagepatch>
+        </patch>
         <type>auto</type>
         <filename>../Images/jpg convert/IMG_20210408_165718_00_116.jpg</filename>
         <videotype>equi</videotype>
@@ -47,9 +76,10 @@
         <latitude>25.551972</latitude>
         <longitude>-80.405194</longitude>
         <altitude>4</altitude>
-        <title>IMG_20210408_165718_00_116.insp</title>
+        <title>South East Pool</title>
         <datetime>08/04/2021 16:57</datetime>
         <tags>jpg convert</tags>
+        <usealtitude>0</usealtitude>
       </userdata>
       <floorplans/>
       <hotspots>
@@ -67,7 +97,7 @@
           <polygon/>
           <type>point</type>
           <id>Point01</id>
-          <title>$(ut)</title>
+          <title>Bar</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node2}</url>
@@ -81,23 +111,307 @@
         </hotspot>
         <hotspot>
           <position>
-            <pan>-83.85</pan>
-            <tilt>-26.95</tilt>
+            <pan>-87.79</pan>
+            <tilt>-7.63</tilt>
             <fov>10</fov>
           </position>
           <next>
-            <pan>-172.3</pan>
-            <tilt>-27.3</tilt>
+            <pan>-175</pan>
+            <tilt>-8.2</tilt>
             <fov>100</fov>
           </next>
           <polygon/>
           <type>point</type>
           <id>Point02</id>
+          <title>South West Pool</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node10}</url>
+          <target>-175.0/-8.2/100.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>90</pan>
+            <tilt>0</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point03</id>
           <title>$(ut)</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
-          <url>{node11}</url>
-          <target>-172.3/-27.3/100.0</target>
+          <url>{node3}</url>
+          <target>$fwd</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>1</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>118.995</pan>
+            <tilt>0</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point04</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node4}</url>
+          <target>$fwd</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>1</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>90</pan>
+            <tilt>0</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point05</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node5}</url>
+          <target>$fwd</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>1</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>90</pan>
+            <tilt>0</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point06</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node6}</url>
+          <target>$fwd</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>1</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>90</pan>
+            <tilt>0</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point07</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node7}</url>
+          <target>$fwd</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>1</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>74.5118</pan>
+            <tilt>0</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point08</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node9}</url>
+          <target>$fwd</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>1</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>42.0566</pan>
+            <tilt>0</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point09</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node10}</url>
+          <target>$fwd</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>1</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-139.18</pan>
+            <tilt>-24.67</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point10</id>
+          <title>Info</title>
+          <linktype>url</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>https://www.facebook.com/AM-Pool-Services-Inc-1131377640331657/</url>
+          <skinid>ht_url</skinid>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-148.67</pan>
+            <tilt>-7.59</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>78.5</pan>
+            <tilt>-14.2</tilt>
+            <fov>100</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point11</id>
+          <title>North West Pool</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node6}</url>
+          <target>78.5/-14.2/100.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-128.48</pan>
+            <tilt>-24.25</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point12</id>
+          <title>Contact</title>
+          <linktype>image</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>../Images/details/22687973_1131394833663271_1389604421866254538_n.jpg</url>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-124.52</pan>
+            <tilt>-9.25</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>64.2</pan>
+            <tilt>-29.7</tilt>
+            <fov>92.4</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point13</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node8}</url>
+          <target>64.2/-29.7/92.4</target>
           <distance>0</distance>
           <distanceauto>1</distanceauto>
           <autoplace>0</autoplace>
@@ -135,7 +449,36 @@
     </panorama>
     <panorama>
       <input>
-        <patch/>
+        <patch>
+          <imagepatch>
+            <pan>0</pan>
+            <tilt>-90</tilt>
+            <fov>29.9699</fov>
+            <roll>-99.2128</roll>
+            <aspectratio>1</aspectratio>
+            <applyafterlevelling>0</applyafterlevelling>
+            <locked>1</locked>
+            <quality>90</quality>
+            <filename>patches/IMG_20210408_165833_00_117_patch.psd</filename>
+            <type>image</type>
+            <blurintensity>10</blurintensity>
+            <lastmodified>2021-04-09T18:24:58</lastmodified>
+          </imagepatch>
+          <imagepatch>
+            <pan>-90.63</pan>
+            <tilt>-49.63</tilt>
+            <fov>50</fov>
+            <roll>0</roll>
+            <aspectratio>1</aspectratio>
+            <applyafterlevelling>0</applyafterlevelling>
+            <locked>1</locked>
+            <quality>90</quality>
+            <filename>patches/IMG_20210408_165833_00_117_patch_1.psd</filename>
+            <type>image</type>
+            <blurintensity>10</blurintensity>
+            <lastmodified>2021-04-09T18:26:46</lastmodified>
+          </imagepatch>
+        </patch>
         <type>auto</type>
         <filename>../Images/jpg convert/IMG_20210408_165833_00_117.jpg</filename>
         <videotype>equi</videotype>
@@ -177,9 +520,10 @@
         <latitude>25.551972</latitude>
         <longitude>-80.405194</longitude>
         <altitude>4.2</altitude>
-        <title>IMG_20210408_165833_00_117.insp</title>
+        <title>Bar</title>
         <datetime>08/04/2021 16:58</datetime>
         <tags>jpg convert</tags>
+        <usealtitude>0</usealtitude>
       </userdata>
       <floorplans/>
       <hotspots>
@@ -197,36 +541,11 @@
           <polygon/>
           <type>point</type>
           <id>Point01</id>
-          <title>$(ut)</title>
+          <title>South East Pool</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node1}</url>
           <target>0.1/-16.6/100.0</target>
-          <distance>0</distance>
-          <distanceauto>1</distanceauto>
-          <autoplace>0</autoplace>
-          <use3d>0</use3d>
-          <width>0</width>
-          <height>0</height>
-        </hotspot>
-        <hotspot>
-          <position>
-            <pan>-288.49</pan>
-            <tilt>-17.7</tilt>
-            <fov>10</fov>
-          </position>
-          <next>
-            <pan>0</pan>
-            <tilt>0</tilt>
-            <fov>0</fov>
-          </next>
-          <polygon/>
-          <type>point</type>
-          <id>Point02</id>
-          <title>$(ut)</title>
-          <linktype>node</linktype>
-          <linksubtype>unknown</linksubtype>
-          <url>{node3}</url>
           <distance>0</distance>
           <distanceauto>1</distanceauto>
           <autoplace>0</autoplace>
@@ -260,25 +579,82 @@
           <height>0</height>
         </hotspot>
         <hotspot>
-          <position/>
+          <position>
+            <pan>-263.53</pan>
+            <tilt>-9.42</tilt>
+            <fov>10</fov>
+          </position>
           <next>
-            <pan>59.7</pan>
-            <tilt>-48.4</tilt>
-            <fov>75.3</fov>
+            <pan>95.2</pan>
+            <tilt>-24.9</tilt>
+            <fov>100</fov>
           </next>
-          <polygon>
-            <polystring>-198.77/-13.47|-201.36/-17.75|-222.95/-15.14|-216.07/-12.55</polystring>
-            <usedefaultcolor>1</usedefaultcolor>
-            <backgroundcolor>#0000ff,64</backgroundcolor>
-            <bordercolor>#0000ff</bordercolor>
-          </polygon>
-          <type>poly</type>
-          <id>Poly01</id>
+          <polygon/>
+          <type>point</type>
+          <id>Point04</id>
+          <title>North Pool</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node5}</url>
+          <target>95.2/-24.9/100.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-208.44</pan>
+            <tilt>-10.93</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>61.5</pan>
+            <tilt>-43.6</tilt>
+            <fov>92.4</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point06</id>
           <title>Jacuzzi</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node8}</url>
-          <target>59.7/-48.4/75.3</target>
+          <target>61.5/-43.6/92.4</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-161.51</pan>
+            <tilt>-11.84</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>-167.8</pan>
+            <tilt>-21.5</tilt>
+            <fov>100</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point02</id>
+          <title>South West Pool</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node10}</url>
+          <target>-167.8/-21.5/100.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
         </hotspot>
       </hotspots>
       <output/>
@@ -289,7 +665,22 @@
     </panorama>
     <panorama>
       <input>
-        <patch/>
+        <patch>
+          <imagepatch>
+            <pan>0</pan>
+            <tilt>-90</tilt>
+            <fov>50</fov>
+            <roll>130.431</roll>
+            <aspectratio>1</aspectratio>
+            <applyafterlevelling>0</applyafterlevelling>
+            <locked>1</locked>
+            <quality>90</quality>
+            <filename>patches/IMG_20210408_165930_00_118_patch.psd</filename>
+            <type>image</type>
+            <blurintensity>10</blurintensity>
+            <lastmodified>2021-04-09T18:28:21</lastmodified>
+          </imagepatch>
+        </patch>
         <type>auto</type>
         <filename>../Images/jpg convert/IMG_20210408_165930_00_118.jpg</filename>
         <videotype>equi</videotype>
@@ -331,31 +722,32 @@
         <latitude>25.551972</latitude>
         <longitude>-80.405278</longitude>
         <altitude>3.8</altitude>
-        <title>IMG_20210408_165930_00_118.insp</title>
+        <title>Bar 2</title>
         <datetime>08/04/2021 16:59</datetime>
         <tags>jpg convert</tags>
+        <usealtitude>0</usealtitude>
       </userdata>
       <floorplans/>
       <hotspots>
         <hotspot>
           <position>
-            <pan>-154.55</pan>
-            <tilt>-21.97</tilt>
+            <pan>-301.67</pan>
+            <tilt>-7.77</tilt>
             <fov>10</fov>
           </position>
           <next>
-            <pan>-152.9</pan>
-            <tilt>-20.3</tilt>
+            <pan>95.3</pan>
+            <tilt>-17</tilt>
             <fov>100</fov>
           </next>
           <polygon/>
           <type>point</type>
-          <id>Point01</id>
-          <title>$(ut)</title>
+          <id>Point02</id>
+          <title>North East Pool</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
-          <url>{node2}</url>
-          <target>-152.9/-20.3/100.0</target>
+          <url>{node5}</url>
+          <target>95.3/-17.0/100.0</target>
           <distance>0</distance>
           <distanceauto>1</distanceauto>
           <autoplace>0</autoplace>
@@ -365,23 +757,127 @@
         </hotspot>
         <hotspot>
           <position>
-            <pan>-333.81</pan>
-            <tilt>-7.39</tilt>
+            <pan>-90</pan>
+            <tilt>0</tilt>
             <fov>10</fov>
           </position>
           <next>
-            <pan>117.1</pan>
-            <tilt>-19.7</tilt>
-            <fov>100</fov>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
           </next>
           <polygon/>
           <type>point</type>
-          <id>Point02</id>
+          <id>Point03</id>
           <title>$(ut)</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
-          <url>{node4}</url>
-          <target>117.1/-19.7/100.0</target>
+          <url>{node1}</url>
+          <target>$fwd</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>1</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-90</pan>
+            <tilt>0</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point04</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node5}</url>
+          <target>$fwd</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>1</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-61.0046</pan>
+            <tilt>0</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point09</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node10}</url>
+          <target>$fwd</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>1</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-53.5378</pan>
+            <tilt>0</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point10</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node11}</url>
+          <target>$fwd</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>1</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-232.79</pan>
+            <tilt>-9.43</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>64.1</pan>
+            <tilt>-26.7</tilt>
+            <fov>92.4</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point05</id>
+          <title>Jacuzzi</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node8}</url>
+          <target>64.1/-26.7/92.4</target>
           <distance>0</distance>
           <distanceauto>1</distanceauto>
           <autoplace>0</autoplace>
@@ -390,23 +886,29 @@
           <height>0</height>
         </hotspot>
         <hotspot>
-          <position/>
+          <position>
+            <pan>-174.43</pan>
+            <tilt>-9.41</tilt>
+            <fov>10</fov>
+          </position>
           <next>
             <pan>0</pan>
             <tilt>0</tilt>
             <fov>0</fov>
           </next>
-          <polygon>
-            <polystring>-225.21/-12.03|-218.69/-14.96|-240.23/-16.01|-241.88/-11.38|-233.29/-11.88</polystring>
-            <usedefaultcolor>1</usedefaultcolor>
-            <backgroundcolor>#0000ff,64</backgroundcolor>
-            <bordercolor>#0000ff</bordercolor>
-          </polygon>
-          <type>poly</type>
-          <id>Poly01</id>
-          <title>Jacuzzi</title>
-          <linktype>url</linktype>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <title>South Pool</title>
+          <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
+          <url>{node11}</url>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
         </hotspot>
       </hotspots>
       <output/>
@@ -417,7 +919,22 @@
     </panorama>
     <panorama>
       <input>
-        <patch/>
+        <patch>
+          <imagepatch>
+            <pan>164.05</pan>
+            <tilt>-69.28</tilt>
+            <fov>67.9814</fov>
+            <roll>0</roll>
+            <aspectratio>1</aspectratio>
+            <applyafterlevelling>0</applyafterlevelling>
+            <locked>1</locked>
+            <quality>90</quality>
+            <filename>patches/IMG_20210408_170030_00_119_patch.psd</filename>
+            <type>image</type>
+            <blurintensity>10</blurintensity>
+            <lastmodified>2021-04-09T18:30:08</lastmodified>
+          </imagepatch>
+        </patch>
         <type>auto</type>
         <filename>../Images/jpg convert/IMG_20210408_170030_00_119.jpg</filename>
         <videotype>equi</videotype>
@@ -459,9 +976,10 @@
         <latitude>25.551944</latitude>
         <longitude>-80.405250</longitude>
         <altitude>4.5</altitude>
-        <title>IMG_20210408_170030_00_119.insp</title>
+        <title>North East Pool</title>
         <datetime>08/04/2021 17:00</datetime>
         <tags>jpg convert</tags>
+        <usealtitude>0</usealtitude>
       </userdata>
       <floorplans/>
       <hotspots>
@@ -479,7 +997,7 @@
           <polygon/>
           <type>point</type>
           <id>Point01</id>
-          <title>$(ut)</title>
+          <title>Bar 2</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node3}</url>
@@ -505,7 +1023,7 @@
           <polygon/>
           <type>point</type>
           <id>Point02</id>
-          <title>$(ut)</title>
+          <title>North Pool</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node5}</url>
@@ -518,24 +1036,133 @@
           <height>0</height>
         </hotspot>
         <hotspot>
-          <position/>
+          <position>
+            <pan>-61.0046</pan>
+            <tilt>0</tilt>
+            <fov>10</fov>
+          </position>
           <next>
             <pan>0</pan>
             <tilt>0</tilt>
             <fov>0</fov>
           </next>
-          <polygon>
-            <polystring>-251.6/-9.01|-243.07/-11.01|-256.09/-12.01|-264.17/-8.73</polystring>
-            <usedefaultcolor>1</usedefaultcolor>
-            <backgroundcolor>#0000ff,64</backgroundcolor>
-            <bordercolor>#0000ff</bordercolor>
-          </polygon>
-          <type>poly</type>
-          <id>Poly01</id>
-          <title>Jacuzzi</title>
+          <polygon/>
+          <type>point</type>
+          <id>Point03</id>
+          <title>$(ut)</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
-          <url>{node8}</url>
+          <url>{node1}</url>
+          <target>$fwd</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>1</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-61.0046</pan>
+            <tilt>0</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point04</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node2}</url>
+          <target>$fwd</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>1</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-24.28</pan>
+            <tilt>0</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point08</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node10}</url>
+          <target>$fwd</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>1</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-31.0253</pan>
+            <tilt>0</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point09</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node11}</url>
+          <target>$fwd</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>1</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-216.73</pan>
+            <tilt>-9.63</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>-171.1</pan>
+            <tilt>-21.8</tilt>
+            <fov>100</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point05</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node11}</url>
+          <target>-171.1/-21.8/100.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
         </hotspot>
       </hotspots>
       <output/>
@@ -546,7 +1173,22 @@
     </panorama>
     <panorama>
       <input>
-        <patch/>
+        <patch>
+          <imagepatch>
+            <pan>0</pan>
+            <tilt>-90</tilt>
+            <fov>26.9925</fov>
+            <roll>98.6353</roll>
+            <aspectratio>1</aspectratio>
+            <applyafterlevelling>0</applyafterlevelling>
+            <locked>1</locked>
+            <quality>90</quality>
+            <filename>patches/IMG_20210408_170133_00_120_patch.psd</filename>
+            <type>image</type>
+            <blurintensity>10</blurintensity>
+            <lastmodified>2021-04-09T18:32:51</lastmodified>
+          </imagepatch>
+        </patch>
         <type>auto</type>
         <filename>../Images/jpg convert/IMG_20210408_170133_00_120.jpg</filename>
         <videotype>equi</videotype>
@@ -588,16 +1230,17 @@
         <latitude>25.551972</latitude>
         <longitude>-80.405250</longitude>
         <altitude>4.2</altitude>
-        <title>IMG_20210408_170133_00_120.insp</title>
+        <title>North Pool</title>
         <datetime>08/04/2021 17:01</datetime>
         <tags>jpg convert</tags>
+        <usealtitude>0</usealtitude>
       </userdata>
       <floorplans/>
       <hotspots>
         <hotspot>
           <position>
-            <pan>-182.83</pan>
-            <tilt>-22.14</tilt>
+            <pan>-180.41</pan>
+            <tilt>-15.76</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -608,7 +1251,7 @@
           <polygon/>
           <type>point</type>
           <id>Point01</id>
-          <title>$(ut)</title>
+          <title>North East Pool</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node4}</url>
@@ -622,8 +1265,8 @@
         </hotspot>
         <hotspot>
           <position>
-            <pan>-358.17</pan>
-            <tilt>-14.94</tilt>
+            <pan>-356.36</pan>
+            <tilt>-4.46</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -634,7 +1277,7 @@
           <polygon/>
           <type>point</type>
           <id>Point02</id>
-          <title>$(ut)</title>
+          <title>North West Pool</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node6}</url>
@@ -647,8 +1290,8 @@
         </hotspot>
         <hotspot>
           <position>
-            <pan>-269.56</pan>
-            <tilt>-3.71</tilt>
+            <pan>-269.57</pan>
+            <tilt>-3.88</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -659,7 +1302,7 @@
           <polygon/>
           <type>point</type>
           <id>Point03</id>
-          <title>$(ut)</title>
+          <title>South Pool</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node11}</url>
@@ -672,24 +1315,81 @@
           <height>0</height>
         </hotspot>
         <hotspot>
-          <position/>
+          <position>
+            <pan>-90</pan>
+            <tilt>0</tilt>
+            <fov>10</fov>
+          </position>
           <next>
             <pan>0</pan>
             <tilt>0</tilt>
             <fov>0</fov>
           </next>
-          <polygon>
-            <polystring>-293.5/-7.09|-304.84/-9.45|-315.89/-6.21|-306.18/-4.86</polystring>
-            <usedefaultcolor>1</usedefaultcolor>
-            <backgroundcolor>#0000ff,64</backgroundcolor>
-            <bordercolor>#0000ff</bordercolor>
-          </polygon>
-          <type>poly</type>
-          <id>Poly01</id>
-          <title>Jacuzzi</title>
+          <polygon/>
+          <type>point</type>
+          <id>Point04</id>
+          <title>$(ut)</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
-          <url>{node8}</url>
+          <url>{node1}</url>
+          <target>$fwd</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>1</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-90</pan>
+            <tilt>0</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point05</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node2}</url>
+          <target>$fwd</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>1</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-229.56</pan>
+            <tilt>-10.92</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point06</id>
+          <title>Bar 2</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node3}</url>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
         </hotspot>
       </hotspots>
       <output/>
@@ -700,7 +1400,22 @@
     </panorama>
     <panorama>
       <input>
-        <patch/>
+        <patch>
+          <imagepatch>
+            <pan>59.34</pan>
+            <tilt>-69.89</tilt>
+            <fov>61.9098</fov>
+            <roll>92.7973</roll>
+            <aspectratio>1</aspectratio>
+            <applyafterlevelling>0</applyafterlevelling>
+            <locked>1</locked>
+            <quality>90</quality>
+            <filename>patches/IMG_20210408_170254_00_121_patch.psd</filename>
+            <type>image</type>
+            <blurintensity>10</blurintensity>
+            <lastmodified>2021-04-09T18:35:11</lastmodified>
+          </imagepatch>
+        </patch>
         <type>auto</type>
         <filename>../Images/jpg convert/IMG_20210408_170254_00_121.jpg</filename>
         <videotype>equi</videotype>
@@ -742,16 +1457,17 @@
         <latitude>25.551972</latitude>
         <longitude>-80.405278</longitude>
         <altitude>4.2</altitude>
-        <title>IMG_20210408_170254_00_121.insp</title>
+        <title>North West Pool</title>
         <datetime>08/04/2021 17:02</datetime>
         <tags>jpg convert</tags>
+        <usealtitude>0</usealtitude>
       </userdata>
       <floorplans/>
       <hotspots>
         <hotspot>
           <position>
-            <pan>-220.76</pan>
-            <tilt>-29.36</tilt>
+            <pan>-210.56</pan>
+            <tilt>-17.3</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -762,7 +1478,7 @@
           <polygon/>
           <type>point</type>
           <id>Point01</id>
-          <title>$(ut)</title>
+          <title>North Pool</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node5}</url>
@@ -776,8 +1492,8 @@
         </hotspot>
         <hotspot>
           <position>
-            <pan>-310.24</pan>
-            <tilt>-16.96</tilt>
+            <pan>-313.95</pan>
+            <tilt>-12.38</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -788,7 +1504,7 @@
           <polygon/>
           <type>point</type>
           <id>Point02</id>
-          <title>$(ut)</title>
+          <title>Jacuzzi Left</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node7}</url>
@@ -796,6 +1512,136 @@
           <distance>0</distance>
           <distanceauto>1</distanceauto>
           <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-292.47</pan>
+            <tilt>-3.54</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>-172.3</pan>
+            <tilt>-27.3</tilt>
+            <fov>100</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point03</id>
+          <title>South Pool</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node11}</url>
+          <target>-172.3/-27.3/100.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-90</pan>
+            <tilt>0</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point04</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node1}</url>
+          <target>$fwd</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>1</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-90</pan>
+            <tilt>0</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point05</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node2}</url>
+          <target>$fwd</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>1</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-137.943</pan>
+            <tilt>0</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point07</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node4}</url>
+          <target>$fwd</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>1</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-61.0046</pan>
+            <tilt>0</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point10</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node10}</url>
+          <target>$fwd</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>1</autoplace>
           <use3d>0</use3d>
           <width>0</width>
           <height>0</height>
@@ -809,7 +1655,22 @@
     </panorama>
     <panorama>
       <input>
-        <patch/>
+        <patch>
+          <imagepatch>
+            <pan>0</pan>
+            <tilt>-90</tilt>
+            <fov>50</fov>
+            <roll>-29.1651</roll>
+            <aspectratio>1</aspectratio>
+            <applyafterlevelling>0</applyafterlevelling>
+            <locked>1</locked>
+            <quality>90</quality>
+            <filename>patches/IMG_20210408_170441_00_122_patch.psd</filename>
+            <type>image</type>
+            <blurintensity>10</blurintensity>
+            <lastmodified>2021-04-09T18:37:03</lastmodified>
+          </imagepatch>
+        </patch>
         <type>auto</type>
         <filename>../Images/jpg convert/IMG_20210408_170441_00_122.jpg</filename>
         <videotype>equi</videotype>
@@ -834,9 +1695,10 @@
         <latitude>25.551972</latitude>
         <longitude>-80.405278</longitude>
         <altitude>3.8</altitude>
-        <title>IMG_20210408_170441_00_122.insp</title>
+        <title>Jacuzzi Left</title>
         <datetime>08/04/2021 17:04</datetime>
         <tags>jpg convert</tags>
+        <usealtitude>0</usealtitude>
       </userdata>
       <floorplans/>
       <hotspots>
@@ -854,7 +1716,7 @@
           <polygon/>
           <type>point</type>
           <id>Point01</id>
-          <title>$(ut)</title>
+          <title>North West Pool</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node6}</url>
@@ -880,7 +1742,7 @@
           <polygon/>
           <type>point</type>
           <id>Point02</id>
-          <title>$(ut)</title>
+          <title>Jacuzzi Right</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node9}</url>
@@ -894,8 +1756,34 @@
         </hotspot>
         <hotspot>
           <position>
-            <pan>-55.68</pan>
-            <tilt>-31.73</tilt>
+            <pan>-310.47</pan>
+            <tilt>-5.15</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>123.1</pan>
+            <tilt>-29.4</tilt>
+            <fov>100</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point04</id>
+          <title>Bar 2</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node3}</url>
+          <target>123.1/-29.4/100.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-137.943</pan>
+            <tilt>0</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -905,12 +1793,38 @@
           </next>
           <polygon/>
           <type>point</type>
-          <id>Point03</id>
-          <title>Jacuzzi</title>
-          <linktype>url</linktype>
+          <id>Point07</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
-          <url>https://www.facebook.com/109141054072204/videos/376451397114331/</url>
-          <skinid>ht_video_url</skinid>
+          <url>{node4}</url>
+          <target>$fwd</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>1</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-11.78</pan>
+            <tilt>0.52</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>-172.3</pan>
+            <tilt>-27.3</tilt>
+            <fov>100</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point03</id>
+          <title>South Pool</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node11}</url>
+          <target>-172.3/-27.3/100.0</target>
           <distance>0</distance>
           <distanceauto>1</distanceauto>
           <autoplace>0</autoplace>
@@ -927,7 +1841,22 @@
     </panorama>
     <panorama>
       <input>
-        <patch/>
+        <patch>
+          <imagepatch>
+            <pan>340.95</pan>
+            <tilt>-60.39</tilt>
+            <fov>66.2501</fov>
+            <roll>0</roll>
+            <aspectratio>1</aspectratio>
+            <applyafterlevelling>0</applyafterlevelling>
+            <locked>1</locked>
+            <quality>90</quality>
+            <filename>patches/IMG_20210408_170618_00_123_patch.psd</filename>
+            <type>image</type>
+            <blurintensity>10</blurintensity>
+            <lastmodified>2021-04-09T18:38:18</lastmodified>
+          </imagepatch>
+        </patch>
         <type>auto</type>
         <filename>../Images/jpg convert/IMG_20210408_170618_00_123.jpg</filename>
         <videotype>equi</videotype>
@@ -936,12 +1865,12 @@
       </input>
       <viewingparameter>
         <pan>
-          <start>58.93</start>
+          <start>64.24</start>
           <min>0</min>
           <max>360</max>
         </pan>
         <tilt>
-          <start>-61.29</start>
+          <start>-29.7</start>
           <min>-90</min>
           <max>90</max>
         </tilt>
@@ -962,49 +1891,24 @@
         <scaletofit>1</scaletofit>
         <projection>rectilinear</projection>
         <flyinprojection>stereo</flyinprojection>
-        <defaultviewtimestamp>2021-04-09T12:40:58</defaultviewtimestamp>
+        <defaultviewtimestamp>2021-04-10T08:42:12</defaultviewtimestamp>
       </viewingparameter>
       <userdata>
         <capturedatetime>2021-04-08T17:06:18</capturedatetime>
         <latitude>25.552000</latitude>
         <longitude>-80.405278</longitude>
         <altitude>4</altitude>
-        <title>IMG_20210408_170618_00_123.insp</title>
+        <title>Jacuzzy</title>
         <datetime>08/04/2021 17:06</datetime>
         <tags>jpg convert</tags>
+        <usealtitude>0</usealtitude>
       </userdata>
       <floorplans/>
       <hotspots>
         <hotspot>
           <position>
-            <pan>-309.73</pan>
-            <tilt>-39.06</tilt>
-            <fov>10</fov>
-          </position>
-          <next>
-            <pan>0</pan>
-            <tilt>0</tilt>
-            <fov>0</fov>
-          </next>
-          <polygon/>
-          <type>point</type>
-          <id>Point01</id>
-          <title>Jacuzzi</title>
-          <description>Jacuzzi controlled by app mobile</description>
-          <linktype>info</linktype>
-          <linksubtype>unknown</linksubtype>
-          <skinid>ht_info</skinid>
-          <distance>0</distance>
-          <distanceauto>1</distanceauto>
-          <autoplace>0</autoplace>
-          <use3d>0</use3d>
-          <width>0</width>
-          <height>0</height>
-        </hotspot>
-        <hotspot>
-          <position>
-            <pan>-342.19</pan>
-            <tilt>-17.11</tilt>
+            <pan>-337.3</pan>
+            <tilt>-16.84</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -1015,7 +1919,7 @@
           <polygon/>
           <type>point</type>
           <id>Point02</id>
-          <title>$(ut)</title>
+          <title>Jacuzzi Right</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node9}</url>
@@ -1029,8 +1933,8 @@
         </hotspot>
         <hotspot>
           <position>
-            <pan>-267.37</pan>
-            <tilt>-23.71</tilt>
+            <pan>-267.41</pan>
+            <tilt>-21.2</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -1041,7 +1945,7 @@
           <polygon/>
           <type>point</type>
           <id>Point03</id>
-          <title>$(ut)</title>
+          <title>Jacuzzi Left</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node7}</url>
@@ -1053,6 +1957,261 @@
           <width>0</width>
           <height>0</height>
         </hotspot>
+        <hotspot>
+          <position>
+            <pan>-110.278</pan>
+            <tilt>0</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point04</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node1}</url>
+          <target>$fwd</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>1</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-110.278</pan>
+            <tilt>0</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point05</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node2}</url>
+          <target>$fwd</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>1</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>180</pan>
+            <tilt>0</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point06</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node3}</url>
+          <target>$fwd</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>1</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-155.72</pan>
+            <tilt>0</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point07</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node4}</url>
+          <target>$fwd</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>1</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-137.943</pan>
+            <tilt>0</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point08</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node5}</url>
+          <target>$fwd</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>1</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>180</pan>
+            <tilt>0</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point09</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node6}</url>
+          <target>$fwd</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>1</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-90</pan>
+            <tilt>0</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point10</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node10}</url>
+          <target>$fwd</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>1</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-69.7222</pan>
+            <tilt>0</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point11</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node11}</url>
+          <target>$fwd</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>1</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-329.74</pan>
+            <tilt>-1.11</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>-145.1</pan>
+            <tilt>-34.3</tilt>
+            <fov>100</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point12</id>
+          <title>Jacuzzi Left</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node1}</url>
+          <target>-145.1/-34.3/100.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position/>
+          <next>
+            <pan>126</pan>
+            <tilt>-29.9</tilt>
+            <fov>100</fov>
+          </next>
+          <polygon>
+            <polystring>-291.47/-6.39|-291.47/-7.03|-292.58/-6.91|-291.91/-8.2|-292.09/-9.04|-309.38/-7.33|-309.34/-6.39|-308.25/-5.47|-309.72/-5.13|-309.4/-4.69</polystring>
+            <usedefaultcolor>1</usedefaultcolor>
+            <backgroundcolor>#0000ff,64</backgroundcolor>
+            <bordercolor>#0000ff</bordercolor>
+          </polygon>
+          <type>poly</type>
+          <id>Poly01</id>
+          <title>Bar</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node3}</url>
+          <target>126.0/-29.9/100.0</target>
+        </hotspot>
       </hotspots>
       <output/>
       <streetview/>
@@ -1062,7 +2221,22 @@
     </panorama>
     <panorama>
       <input>
-        <patch/>
+        <patch>
+          <imagepatch>
+            <pan>45.69</pan>
+            <tilt>-61.23</tilt>
+            <fov>50</fov>
+            <roll>58.3226</roll>
+            <aspectratio>1</aspectratio>
+            <applyafterlevelling>0</applyafterlevelling>
+            <locked>1</locked>
+            <quality>90</quality>
+            <filename>patches/IMG_20210408_170735_00_124_patch.psd</filename>
+            <type>image</type>
+            <blurintensity>10</blurintensity>
+            <lastmodified>2021-04-09T18:40:02</lastmodified>
+          </imagepatch>
+        </patch>
         <type>auto</type>
         <filename>../Images/jpg convert/IMG_20210408_170735_00_124.jpg</filename>
         <videotype>equi</videotype>
@@ -1104,9 +2278,10 @@
         <latitude>25.552000</latitude>
         <longitude>-80.405306</longitude>
         <altitude>4.1</altitude>
-        <title>IMG_20210408_170735_00_124.insp</title>
+        <title>Jacuzzi Right</title>
         <datetime>08/04/2021 17:07</datetime>
         <tags>jpg convert</tags>
+        <usealtitude>0</usealtitude>
       </userdata>
       <floorplans/>
       <hotspots>
@@ -1124,7 +2299,7 @@
           <polygon/>
           <type>point</type>
           <id>Point01</id>
-          <title>$(ut)</title>
+          <title>Jacuzzi Left</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node7}</url>
@@ -1150,11 +2325,37 @@
           <polygon/>
           <type>point</type>
           <id>Point02</id>
-          <title>$(ut)</title>
+          <title>South West Pool</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node10}</url>
           <target>171.4/-16.5/100.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-216.92</pan>
+            <tilt>-12.82</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>114.2</pan>
+            <tilt>-30.6</tilt>
+            <fov>100</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point03</id>
+          <title>Bar 2</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node3}</url>
+          <target>114.2/-30.6/100.0</target>
           <distance>0</distance>
           <distanceauto>1</distanceauto>
           <autoplace>0</autoplace>
@@ -1171,7 +2372,22 @@
     </panorama>
     <panorama>
       <input>
-        <patch/>
+        <patch>
+          <imagepatch>
+            <pan>26.7</pan>
+            <tilt>-57.57</tilt>
+            <fov>68.9474</fov>
+            <roll>0</roll>
+            <aspectratio>1</aspectratio>
+            <applyafterlevelling>0</applyafterlevelling>
+            <locked>1</locked>
+            <quality>90</quality>
+            <filename>patches/IMG_20210408_170955_00_125_patch.psd</filename>
+            <type>image</type>
+            <blurintensity>10</blurintensity>
+            <lastmodified>2021-04-09T18:42:21</lastmodified>
+          </imagepatch>
+        </patch>
         <type>auto</type>
         <filename>../Images/jpg convert/IMG_20210408_170955_00_125.jpg</filename>
         <videotype>equi</videotype>
@@ -1213,9 +2429,10 @@
         <latitude>25.552000</latitude>
         <longitude>-80.405222</longitude>
         <altitude>4.1</altitude>
-        <title>IMG_20210408_170955_00_125.insp</title>
+        <title>South West Pool</title>
         <datetime>08/04/2021 17:09</datetime>
         <tags>jpg convert</tags>
+        <usealtitude>0</usealtitude>
       </userdata>
       <floorplans/>
       <hotspots>
@@ -1233,7 +2450,7 @@
           <polygon/>
           <type>point</type>
           <id>Point01</id>
-          <title>$(ut)</title>
+          <title>Jacuzzi Right</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node9}</url>
@@ -1247,8 +2464,8 @@
         </hotspot>
         <hotspot>
           <position>
-            <pan>-234.62</pan>
-            <tilt>-23.84</tilt>
+            <pan>-234.08</pan>
+            <tilt>-24.65</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -1259,7 +2476,7 @@
           <polygon/>
           <type>point</type>
           <id>Point02</id>
-          <title>$(ut)</title>
+          <title>South Pool</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node11}</url>
@@ -1267,6 +2484,32 @@
           <distance>0</distance>
           <distanceauto>1</distanceauto>
           <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>90</pan>
+            <tilt>0</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point10</id>
+          <title>$(ut)</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node8}</url>
+          <target>$fwd</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>1</autoplace>
           <use3d>0</use3d>
           <width>0</width>
           <height>0</height>
@@ -1280,7 +2523,22 @@
     </panorama>
     <panorama>
       <input>
-        <patch/>
+        <patch>
+          <imagepatch>
+            <pan>14.16</pan>
+            <tilt>-55.92</tilt>
+            <fov>70.5714</fov>
+            <roll>0</roll>
+            <aspectratio>1</aspectratio>
+            <applyafterlevelling>0</applyafterlevelling>
+            <locked>1</locked>
+            <quality>90</quality>
+            <filename>patches/IMG_20210408_171117_00_126_patch.psd</filename>
+            <type>image</type>
+            <blurintensity>10</blurintensity>
+            <lastmodified>2021-04-09T18:45:03</lastmodified>
+          </imagepatch>
+        </patch>
         <type>auto</type>
         <filename>../Images/jpg convert/IMG_20210408_171117_00_126.jpg</filename>
         <videotype>equi</videotype>
@@ -1322,9 +2580,10 @@
         <latitude>25.552028</latitude>
         <longitude>-80.405194</longitude>
         <altitude>4.1</altitude>
-        <title>IMG_20210408_171117_00_126.insp</title>
+        <title>South Pool</title>
         <datetime>08/04/2021 17:11</datetime>
         <tags>jpg convert</tags>
+        <usealtitude>0</usealtitude>
       </userdata>
       <floorplans/>
       <hotspots>
@@ -1342,7 +2601,7 @@
           <polygon/>
           <type>point</type>
           <id>Point01</id>
-          <title>$(ut)</title>
+          <title>South West Pool</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node10}</url>
@@ -1368,7 +2627,7 @@
           <polygon/>
           <type>point</type>
           <id>Point02</id>
-          <title>$(ut)</title>
+          <title>South East Pool</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node1}</url>
@@ -1379,6 +2638,72 @@
           <use3d>0</use3d>
           <width>0</width>
           <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-167.66</pan>
+            <tilt>-9.45</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>95.2</pan>
+            <tilt>-24.9</tilt>
+            <fov>100</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point03</id>
+          <title>North Pool</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node5}</url>
+          <target>95.2/-24.9/100.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position/>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon>
+            <polystring>-120.43/-11.11|-129.38/-14.82|-143.57/-12.36|-130.45/-9.81</polystring>
+            <usedefaultcolor>1</usedefaultcolor>
+            <backgroundcolor>#0000ff,64</backgroundcolor>
+            <bordercolor>#0000ff</bordercolor>
+          </polygon>
+          <type>poly</type>
+          <id>Poly01</id>
+          <title>Jacuzzi</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+        </hotspot>
+        <hotspot>
+          <position/>
+          <next>
+            <pan>-157.5</pan>
+            <tilt>-55.9</tilt>
+            <fov>100</fov>
+          </next>
+          <polygon>
+            <polystring>-192.23/-19.61|-192.45/-16.06|-197.82/-14.95|-211.4/-18.65|-201.98/-21.46|-202/-24.3|-202.22/-24.44</polystring>
+            <usedefaultcolor>1</usedefaultcolor>
+            <backgroundcolor>#0000ff,64</backgroundcolor>
+            <bordercolor>#0000ff</bordercolor>
+          </polygon>
+          <type>poly</type>
+          <id>Poly02</id>
+          <title>Bar</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node3}</url>
+          <target>-157.5/-55.9/100.0</target>
         </hotspot>
       </hotspots>
       <output/>
@@ -1407,7 +2732,7 @@
       <htmlcss>
         <html>
           <enabled>1</enabled>
-          <filename>D:/Rafa/Projects/Piscina A&amp;M/Web project/index.html</filename>
+          <filename>index.html</filename>
           <values>
             <value id="css"></value>
             <value id="gginfo">false</value>
@@ -1429,12 +2754,12 @@
           <backgroundcolor>#000000</backgroundcolor>
         </hotspottext>
         <hotspotstyle>
-          <viewmode>showone</viewmode>
+          <viewmode>visible</viewmode>
         </hotspotstyle>
         <webvr/>
         <tilesize>1520</tilesize>
-        <filename>D:/Rafa/Projects/Piscina A&amp;M/Web project/pano.xml</filename>
-        <skinfile>silhouette_v6.ggsk</skinfile>
+        <filename>pano.xml</filename>
+        <skinfile>D:/Rafa/Projects/Piscina A&amp;M/silhouette_v6.ggsk</skinfile>
       </htmlcss>
     </output>
     <streetview/>

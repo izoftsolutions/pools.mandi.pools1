@@ -1,341 +1,332 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour appversion="6.1.10" start="node1" apprev="18007">
+<tour start="node1" appversion="6.1.10" apprev="18007">
   <panorama id="node1">
-    <input height="1520" levelingpitch="0" width="1520" leveltilesize="510" levelbias="0.400" levelbiashidpi="1.000" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1">
-      <level predecode="0" height="1520" width="1520" preload="0"/>
-      <level predecode="0" height="760" width="760" preload="0"/>
-      <level predecode="1" height="380" width="380" preload="1"/>
+    <input leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1520" levelbiashidpi="1.000" height="1520" levelbias="0.400" overlap="1" levelingpitch="0" levelingroll="0" leveltilesize="510">
+      <level predecode="0" width="1520" height="1520" preload="0"/>
+      <level predecode="0" width="760" height="760" preload="0"/>
+      <level predecode="1" width="380" height="380" preload="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start fov="100" projection="4" tilt="-34.31" pan="-145.14"/>
-      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fovstereographic="270" fov="120" scaletofit="1" fovfisheye="360" tilt="90" pan="360"/>
+    <view fovmode="0" pannorth="0">
+      <start pan="-145.14" projection="4" fov="100" tilt="-34.31"/>
+      <flyin pan="0" projection="9" fov="170" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" fov="120" fovstereographic="270" tilt="90" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata altitude="4.00" customnodeid="" copyright="" heading="0" datetime="08/04/2021 16:57" latitude="25.551972" comment="" source="" title="South East Pool" author="" tags="jpg convert" longitude="-80.405194" nodeid="node1" description="" info=""/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label enabled="1" wordwrap="1" border="1" backgroundcolor="0x000000" borderalpha="1" height="20" borderradius="1" width="180" textcolor="0xffffff" backgroundalpha="1" textalpha="1" background="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" mode="1" backgroundalpha="0.25098" bordercolor="0x0000ff"/>
-      <hotspot target="85.6/-10.6/100.0" url="{node2}" id="Point01" tilt="-25.95" skinid="ht_node" pan="-179.6" title="Bar" description=""/>
-      <hotspot target="-175.0/-8.2/100.0" distance="4.1933" url="{node10}" id="Point02" tilt="-7.63" skinid="ht_node" pan="-87.79" title="South West Pool" description=""/>
-      <hotspot target="$fwd" distance="8.42683" url="{node3}" id="Point03" tilt="0" skinid="ht_node" pan="90" title="Bar 2" description=""/>
-      <hotspot target="$fwd" distance="6.42295" url="{node4}" id="Point04" tilt="0" skinid="ht_node" pan="118.995" title="North East Pool" description=""/>
-      <hotspot target="$fwd" distance="5.61789" url="{node5}" id="Point05" tilt="0" skinid="ht_node" pan="90" title="North Pool" description=""/>
-      <hotspot target="$fwd" distance="8.42683" url="{node6}" id="Point06" tilt="0" skinid="ht_node" pan="90" title="North West Pool" description=""/>
-      <hotspot target="$fwd" distance="8.42683" url="{node7}" id="Point07" tilt="0" skinid="ht_node" pan="90" title="Jacuzzi Left" description=""/>
-      <hotspot target="$fwd" distance="11.6592" url="{node9}" id="Point08" tilt="0" skinid="ht_node" pan="74.5118" title="Jacuzzi Right" description=""/>
-      <hotspot target="$fwd" distance="4.1933" url="{node10}" id="Point09" tilt="0" skinid="ht_node" pan="42.0566" title="South West Pool" description=""/>
-      <hotspot target="_blank" url="https://www.facebook.com/AM-Pool-Services-Inc-1131377640331657/" id="Point10" tilt="-24.67" skinid="ht_url" pan="-139.18" title="Info" description=""/>
-      <hotspot target="78.5/-14.2/100.0" distance="8.42683" url="{node6}" id="Point11" tilt="-7.59" skinid="ht_node" pan="-148.67" title="North West Pool" description=""/>
-      <hotspot target="" url="images/22687973_1131394833663271_1389604421866254538_n.jpg" id="Point12" tilt="-24.25" skinid="ht_image" pan="-128.48" title="Contact" description=""/>
-      <hotspot target="64.2/-29.7/92.4" distance="8.9836" url="{node8}" id="Point13" tilt="-9.25" skinid="ht_node" pan="-124.52" title="" description=""/>
-      <polyhotspot target="55.1/-47.7/62.0" url="{node8}" id="Poly01" title="Jacuzzi" description="">
+    <userdata customnodeid="" nodeid="node1" description="" datetime="08/04/2021 16:57" source="" comment="" info="" longitude="-80.405194" title="South East Pool" tags="jpg convert" latitude="25.551972" altitude="4.00" heading="0" author="" copyright=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label textcolor="0xffffff" border="1" borderalpha="1" width="180" enabled="1" textalpha="1" height="20" bordercolor="0x000000" backgroundalpha="1" wordwrap="1" background="1" borderradius="1" backgroundcolor="0x000000"/>
+      <polystyle mode="1" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" pan="-173.57" fov="5.3985" tilt="-19.53" description="" use3D="1" url="{node2}" customimage="media/iconfinder_ic_pin_drop_48px_352071.png" target="85.6/-10.6/100.0" title="Bar" customimageheight="50" distance3D="530.271" skinid="ht_node" customimagewidth="50"/>
+      <hotspot id="Point09" distance="4.1933" pan="42.0566" tilt="0" description="" url="{node10}" target="$fwd" title="South West Pool" skinid="ht_node"/>
+      <hotspot id="Point10" pan="-126.75" tilt="-31.59" description="" url="https://www.facebook.com/pages/category/Construction-Company/AM-Pools-and-Patios-109141054072204/" target="_blank" title="Info" skinid="ht_url"/>
+      <hotspot id="Point11" distance="8.42683" pan="-149.69" fov="5.3985" tilt="-10.08" description="" use3D="1" url="{node6}" customimage="media/iconfinder_ic_pin_drop_48px_352071.png" target="78.5/-14.2/100.0" title="North West Pool" customimageheight="512" distance3D="5429.98" skinid="ht_node" customimagewidth="512"/>
+      <hotspot id="Point12" pan="-100.57" tilt="-36.36" description="" url="images/22687973_1131394833663271_1389604421866254538_n.jpg" target="" title="Contact" skinid="ht_image"/>
+      <hotspot id="Point13" distance="8.9836" pan="-124.87" fov="4.05" tilt="-9.11" description="" use3D="1" url="{node8}" customimage="media/iconfinder_Google_Icons-01_7123032.png" target="64.2/-29.7/92.4" title="" customimageheight="512" distance3D="7240.3" skinid="ht_node" customimagewidth="512"/>
+      <hotspot id="Point03" pan="-144.68" tilt="-23.9" description="A&amp;m Pools &amp; Patios LLC, 220 NW 123rd Ave, Miami, FL " url="https://www.facebook.com/pages/category/Construction-Company/AM-Pools-and-Patios-109141054072204/" target="_blank" title="Info" skinid="ht_info"/>
+      <polyhotspot id="Poly01" description="" url="{node8}" target="55.1/-47.7/62.0" title="Jacuzzi">
         <polystring>-114.33/-8.84|-122.58/-11.66|-135.88/-11.04|-127.49/-8.76</polystring>
       </polyhotspot>
     </hotspots>
     <media/>
-    <transition enabled="1" softedge="0" zoomout="0" blendtime="1" type="crossdissolve" zoomoutpause="1" zoomspeed="2" zoomfov="20" zoomafteroutfov="20" zoomafterinfov="90" zoomin="0" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
-    <control sensitivity="8" lockedmouse="0" speedwheel="1" simulatemass="1" lockedkeyboardzoom="0" contextfullscreen="1" contextprojections="0" lockedkeyboard="0" lockedwheel="0" invertwheel="0" invertcontrol="1" hideabout="0" rubberband="0" dblclickfullscreen="0"/>
+    <transition zoomout="0" zoomfov="20" zoomafterinfov="90" zoomoutpause="1" enabled="1" blendtime="1" zoomin="0" softedge="0" zoomafteroutfov="20" blendcolor="0x000000" type="crossdissolve" zoomspeed="2"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control lockedkeyboardzoom="0" sensitivity="8" lockedmouse="0" lockedwheel="0" dblclickfullscreen="0" simulatemass="1" rubberband="0" invertwheel="0" contextprojections="0" invertcontrol="1" hideabout="0" speedwheel="1" lockedkeyboard="0" contextfullscreen="1"/>
   </panorama>
   <panorama id="node2">
-    <input height="1520" levelingpitch="0" width="1520" leveltilesize="510" levelbias="0.400" levelbiashidpi="1.000" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1">
-      <level predecode="0" height="1520" width="1520" preload="0"/>
-      <level predecode="0" height="760" width="760" preload="0"/>
-      <level predecode="1" height="380" width="380" preload="1"/>
+    <input leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1520" levelbiashidpi="1.000" height="1520" levelbias="0.400" overlap="1" levelingpitch="0" levelingroll="0" leveltilesize="510">
+      <level predecode="0" width="1520" height="1520" preload="0"/>
+      <level predecode="0" width="760" height="760" preload="0"/>
+      <level predecode="1" width="380" height="380" preload="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start fov="100" projection="4" tilt="-25.26" pan="90.8"/>
-      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fovstereographic="270" fov="120" scaletofit="1" fovfisheye="360" tilt="90" pan="360"/>
+    <view fovmode="0" pannorth="0">
+      <start pan="90.8" projection="4" fov="100" tilt="-25.26"/>
+      <flyin pan="0" projection="9" fov="170" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" fov="120" fovstereographic="270" tilt="90" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata altitude="4.20" customnodeid="" copyright="" heading="0" datetime="08/04/2021 16:58" latitude="25.551972" comment="" source="" title="Bar" author="" tags="jpg convert" longitude="-80.405194" nodeid="node2" description="" info=""/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label enabled="1" wordwrap="1" border="1" backgroundcolor="0x000000" borderalpha="1" height="20" borderradius="1" width="180" textcolor="0xffffff" backgroundalpha="1" textalpha="1" background="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" mode="1" backgroundalpha="0.25098" bordercolor="0x0000ff"/>
-      <hotspot target="0.1/-16.6/100.0" url="{node1}" id="Point01" tilt="-9.35" skinid="ht_node" pan="-104.75" title="South East Pool" description=""/>
-      <hotspot target="" url="" id="Point03" tilt="-41.3" skinid="ht_info" pan="-313.18" title="Bar" description="Bar under pool to enjoy Margaritas, Mojitos and more"/>
-      <hotspot target="95.2/-24.9/100.0" distance="5.61789" url="{node5}" id="Point04" tilt="-9.42" skinid="ht_node" pan="-263.53" title="North Pool" description=""/>
-      <hotspot target="61.5/-43.6/92.4" distance="8.9836" url="{node8}" id="Point06" tilt="-10.93" skinid="ht_node" pan="-208.44" title="Jacuzzi" description=""/>
-      <hotspot target="-167.8/-21.5/100.0" distance="4.1933" url="{node10}" id="Point02" tilt="-11.84" skinid="ht_node" pan="-161.51" title="South West Pool" description=""/>
+    <userdata customnodeid="" nodeid="node2" description="" datetime="08/04/2021 16:58" source="" comment="" info="" longitude="-80.405194" title="Bar" tags="jpg convert" latitude="25.551972" altitude="4.20" heading="0" author="" copyright=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label textcolor="0xffffff" border="1" borderalpha="1" width="180" enabled="1" textalpha="1" height="20" bordercolor="0x000000" backgroundalpha="1" wordwrap="1" background="1" borderradius="1" backgroundcolor="0x000000"/>
+      <polystyle mode="1" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" pan="-104.75" tilt="-9.35" description="" url="{node1}" target="0.1/-16.6/100.0" title="South East Pool" skinid="ht_node"/>
+      <hotspot id="Point03" pan="-313.15" fov="10" tilt="-27.86" description="Bar under pool to enjoy Margaritas, Mojitos and more" use3D="0" url="" customimage="media/iconfinder_ic_pin_drop_48px_352071.png" target="" title="Bar" customimageheight="44" distance3D="251.461" skinid="ht_info" customimagewidth="44"/>
+      <hotspot id="Point04" distance="5.61789" pan="-266.89" fov="8.37594" tilt="-10.13" description="" use3D="1" url="{node5}" customimage="media/iconfinder_ic_pin_drop_48px_352071.png" target="95.2/-24.9/100.0" title="North Pool" customimageheight="512" distance3D="3496.11" skinid="ht_node" customimagewidth="512"/>
+      <hotspot id="Point06" distance="8.9836" pan="-208.44" fov="10" tilt="-10.93" description="" use3D="0" url="{node8}" customimage="media/iconfinder_Google_Icons-01_7123032.png" target="61.5/-43.6/92.4" title="Jacuzzi" customimageheight="64" distance3D="365.762" skinid="ht_node" customimagewidth="64"/>
+      <hotspot id="Point02" distance="4.1933" pan="-163.31" fov="8.917289999999999" tilt="-13.88" description="" use3D="1" url="{node10}" customimage="media/iconfinder_ic_pin_drop_48px_352071.png" target="-167.8/-21.5/100.0" title="South West Pool" customimageheight="512" distance3D="3283.08" skinid="ht_node" customimagewidth="512"/>
     </hotspots>
     <media/>
-    <transition enabled="1" softedge="0" zoomout="0" blendtime="1" type="crossdissolve" zoomoutpause="1" zoomspeed="2" zoomfov="20" zoomafteroutfov="20" zoomafterinfov="90" zoomin="0" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
-    <control sensitivity="8" lockedmouse="0" speedwheel="1" simulatemass="1" lockedkeyboardzoom="0" contextfullscreen="1" contextprojections="0" lockedkeyboard="0" lockedwheel="0" invertwheel="0" invertcontrol="1" hideabout="0" rubberband="0" dblclickfullscreen="0"/>
+    <transition zoomout="0" zoomfov="20" zoomafterinfov="90" zoomoutpause="1" enabled="1" blendtime="1" zoomin="0" softedge="0" zoomafteroutfov="20" blendcolor="0x000000" type="crossdissolve" zoomspeed="2"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control lockedkeyboardzoom="0" sensitivity="8" lockedmouse="0" lockedwheel="0" dblclickfullscreen="0" simulatemass="1" rubberband="0" invertwheel="0" contextprojections="0" invertcontrol="1" hideabout="0" speedwheel="1" lockedkeyboard="0" contextfullscreen="1"/>
   </panorama>
   <panorama id="node3">
-    <input height="1520" levelingpitch="0" width="1520" leveltilesize="510" levelbias="0.400" levelbiashidpi="1.000" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1">
-      <level predecode="0" height="1520" width="1520" preload="0"/>
-      <level predecode="0" height="760" width="760" preload="0"/>
-      <level predecode="1" height="380" width="380" preload="1"/>
+    <input leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1520" levelbiashidpi="1.000" height="1520" levelbias="0.400" overlap="1" levelingpitch="0" levelingroll="0" leveltilesize="510">
+      <level predecode="0" width="1520" height="1520" preload="0"/>
+      <level predecode="0" width="760" height="760" preload="0"/>
+      <level predecode="1" width="380" height="380" preload="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start fov="100" projection="4" tilt="-30.63" pan="114.17"/>
-      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fovstereographic="270" fov="120" scaletofit="1" fovfisheye="360" tilt="90" pan="360"/>
+    <view fovmode="0" pannorth="0">
+      <start pan="114.17" projection="4" fov="100" tilt="-30.63"/>
+      <flyin pan="0" projection="9" fov="170" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" fov="120" fovstereographic="270" tilt="90" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata altitude="3.80" customnodeid="" copyright="" heading="0" datetime="08/04/2021 16:59" latitude="25.551972" comment="" source="" title="Bar 2" author="" tags="jpg convert" longitude="-80.405278" nodeid="node3" description="" info=""/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label enabled="1" wordwrap="1" border="1" backgroundcolor="0x000000" borderalpha="1" height="20" borderradius="1" width="180" textcolor="0xffffff" backgroundalpha="1" textalpha="1" background="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" mode="1" backgroundalpha="0.25098" bordercolor="0x0000ff"/>
-      <hotspot target="95.3/-17.0/100.0" distance="2.80894" url="{node5}" id="Point02" tilt="-7.77" skinid="ht_node" pan="-301.67" title="North East Pool" description=""/>
-      <hotspot target="$fwd" distance="8.42683" url="{node1}" id="Point03" tilt="0" skinid="ht_node" pan="-90" title="South East Pool" description=""/>
-      <hotspot target="$fwd" distance="2.80894" url="{node5}" id="Point04" tilt="0" skinid="ht_node" pan="-90" title="North Pool" description=""/>
-      <hotspot target="$fwd" distance="6.42295" url="{node10}" id="Point09" tilt="0" skinid="ht_node" pan="-61.0046" title="South West Pool" description=""/>
-      <hotspot target="$fwd" distance="10.4779" url="{node11}" id="Point10" tilt="0" skinid="ht_node" pan="-53.5378" title="South Pool" description=""/>
-      <hotspot target="64.1/-26.7/92.4" distance="3.11346" url="{node8}" id="Point05" tilt="-9.43" skinid="ht_node" pan="-232.79" title="Jacuzzi" description=""/>
-      <hotspot target="" distance="10.4779" url="{node11}" id="Point01" tilt="-9.41" skinid="ht_node" pan="-174.43" title="South Pool" description=""/>
+    <userdata customnodeid="" nodeid="node3" description="" datetime="08/04/2021 16:59" source="" comment="" info="" longitude="-80.405278" title="Bar 2" tags="jpg convert" latitude="25.551972" altitude="3.80" heading="0" author="" copyright=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label textcolor="0xffffff" border="1" borderalpha="1" width="180" enabled="1" textalpha="1" height="20" bordercolor="0x000000" backgroundalpha="1" wordwrap="1" background="1" borderradius="1" backgroundcolor="0x000000"/>
+      <polystyle mode="1" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point02" distance="2.80894" pan="-301.67" tilt="-7.77" description="" url="{node5}" target="95.3/-17.0/100.0" title="North East Pool" skinid="ht_node"/>
+      <hotspot id="Point05" distance="3.11346" pan="-232.79" tilt="-9.43" description="" url="{node8}" target="64.1/-26.7/92.4" title="Jacuzzi" skinid="ht_node"/>
+      <hotspot id="Point01" distance="10.4779" pan="-174.43" tilt="-9.41" description="" url="{node11}" target="" title="South Pool" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition enabled="1" softedge="0" zoomout="0" blendtime="1" type="crossdissolve" zoomoutpause="1" zoomspeed="2" zoomfov="20" zoomafteroutfov="20" zoomafterinfov="90" zoomin="0" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
-    <control sensitivity="8" lockedmouse="0" speedwheel="1" simulatemass="1" lockedkeyboardzoom="0" contextfullscreen="1" contextprojections="0" lockedkeyboard="0" lockedwheel="0" invertwheel="0" invertcontrol="1" hideabout="0" rubberband="0" dblclickfullscreen="0"/>
+    <transition zoomout="0" zoomfov="20" zoomafterinfov="90" zoomoutpause="1" enabled="1" blendtime="1" zoomin="0" softedge="0" zoomafteroutfov="20" blendcolor="0x000000" type="crossdissolve" zoomspeed="2"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control lockedkeyboardzoom="0" sensitivity="8" lockedmouse="0" lockedwheel="0" dblclickfullscreen="0" simulatemass="1" rubberband="0" invertwheel="0" contextprojections="0" invertcontrol="1" hideabout="0" speedwheel="1" lockedkeyboard="0" contextfullscreen="1"/>
   </panorama>
   <panorama id="node4">
-    <input height="1520" levelingpitch="0" width="1520" leveltilesize="510" levelbias="0.400" levelbiashidpi="1.000" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1">
-      <level predecode="0" height="1520" width="1520" preload="0"/>
-      <level predecode="0" height="760" width="760" preload="0"/>
-      <level predecode="1" height="380" width="380" preload="1"/>
+    <input leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1520" levelbiashidpi="1.000" height="1520" levelbias="0.400" overlap="1" levelingpitch="0" levelingroll="0" leveltilesize="510">
+      <level predecode="0" width="1520" height="1520" preload="0"/>
+      <level predecode="0" width="760" height="760" preload="0"/>
+      <level predecode="1" width="380" height="380" preload="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start fov="100" projection="4" tilt="-16.12" pan="118.44"/>
-      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fovstereographic="270" fov="120" scaletofit="1" fovfisheye="360" tilt="90" pan="360"/>
+    <view fovmode="0" pannorth="0">
+      <start pan="118.44" projection="4" fov="100" tilt="-16.12"/>
+      <flyin pan="0" projection="9" fov="170" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" fov="120" fovstereographic="270" tilt="90" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata altitude="4.50" customnodeid="" copyright="" heading="0" datetime="08/04/2021 17:00" latitude="25.551944" comment="" source="" title="North East Pool" author="" tags="jpg convert" longitude="-80.405250" nodeid="node4" description="" info=""/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label enabled="1" wordwrap="1" border="1" backgroundcolor="0x000000" borderalpha="1" height="20" borderradius="1" width="180" textcolor="0xffffff" backgroundalpha="1" textalpha="1" background="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" mode="1" backgroundalpha="0.25098" bordercolor="0x0000ff"/>
-      <hotspot target="168.9/-25.3/100.0" distance="4.1933" url="{node3}" id="Point01" tilt="-21.3" skinid="ht_node" pan="-199.6" title="Bar 2" description=""/>
-      <hotspot target="92.8/-20.8/100.0" distance="3.11346" url="{node5}" id="Point02" tilt="-21.79" skinid="ht_node" pan="-293.82" title="North Pool" description=""/>
-      <hotspot target="$fwd" distance="6.42295" url="{node1}" id="Point03" tilt="0" skinid="ht_node" pan="-61.0046" title="South East Pool" description=""/>
-      <hotspot target="$fwd" distance="6.42295" url="{node2}" id="Point04" tilt="0" skinid="ht_node" pan="-61.0046" title="Bar" description=""/>
-      <hotspot target="$fwd" distance="6.83115" url="{node10}" id="Point08" tilt="0" skinid="ht_node" pan="-24.28" title="South West Pool" description=""/>
-      <hotspot target="$fwd" distance="10.8997" url="{node11}" id="Point09" tilt="0" skinid="ht_node" pan="-31.0253" title="South Pool" description=""/>
-      <hotspot target="-171.1/-21.8/100.0" distance="10.8997" url="{node11}" id="Point05" tilt="-9.63" skinid="ht_node" pan="-216.73" title="" description=""/>
+    <userdata customnodeid="" nodeid="node4" description="" datetime="08/04/2021 17:00" source="" comment="" info="" longitude="-80.405250" title="North East Pool" tags="jpg convert" latitude="25.551944" altitude="4.50" heading="0" author="" copyright=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label textcolor="0xffffff" border="1" borderalpha="1" width="180" enabled="1" textalpha="1" height="20" bordercolor="0x000000" backgroundalpha="1" wordwrap="1" background="1" borderradius="1" backgroundcolor="0x000000"/>
+      <polystyle mode="1" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" distance="4.1933" pan="-199.6" tilt="-21.3" description="" url="{node3}" target="168.9/-25.3/100.0" title="Bar 2" skinid="ht_node"/>
+      <hotspot id="Point02" distance="3.11346" pan="-293.82" tilt="-21.79" description="" url="{node5}" target="92.8/-20.8/100.0" title="North Pool" skinid="ht_node"/>
+      <hotspot id="Point03" distance="6.42295" pan="-61.0046" tilt="0" description="" url="{node1}" target="$fwd" title="South East Pool" skinid="ht_node"/>
+      <hotspot id="Point04" distance="6.42295" pan="-61.0046" tilt="0" description="" url="{node2}" target="$fwd" title="Bar" skinid="ht_node"/>
+      <hotspot id="Point08" distance="6.83115" pan="-24.28" tilt="0" description="" url="{node10}" target="$fwd" title="South West Pool" skinid="ht_node"/>
+      <hotspot id="Point09" distance="10.8997" pan="-31.0253" tilt="0" description="" url="{node11}" target="$fwd" title="South Pool" skinid="ht_node"/>
+      <hotspot id="Point05" distance="10.8997" pan="-216.73" tilt="-9.63" description="" url="{node11}" target="-171.1/-21.8/100.0" title="" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition enabled="1" softedge="0" zoomout="0" blendtime="1" type="crossdissolve" zoomoutpause="1" zoomspeed="2" zoomfov="20" zoomafteroutfov="20" zoomafterinfov="90" zoomin="0" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
-    <control sensitivity="8" lockedmouse="0" speedwheel="1" simulatemass="1" lockedkeyboardzoom="0" contextfullscreen="1" contextprojections="0" lockedkeyboard="0" lockedwheel="0" invertwheel="0" invertcontrol="1" hideabout="0" rubberband="0" dblclickfullscreen="0"/>
+    <transition zoomout="0" zoomfov="20" zoomafterinfov="90" zoomoutpause="1" enabled="1" blendtime="1" zoomin="0" softedge="0" zoomafteroutfov="20" blendcolor="0x000000" type="crossdissolve" zoomspeed="2"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control lockedkeyboardzoom="0" sensitivity="8" lockedmouse="0" lockedwheel="0" dblclickfullscreen="0" simulatemass="1" rubberband="0" invertwheel="0" contextprojections="0" invertcontrol="1" hideabout="0" speedwheel="1" lockedkeyboard="0" contextfullscreen="1"/>
   </panorama>
   <panorama id="node5">
-    <input height="1520" levelingpitch="0" width="1520" leveltilesize="510" levelbias="0.400" levelbiashidpi="1.000" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1">
-      <level predecode="0" height="1520" width="1520" preload="0"/>
-      <level predecode="0" height="760" width="760" preload="0"/>
-      <level predecode="1" height="380" width="380" preload="1"/>
+    <input leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1520" levelbiashidpi="1.000" height="1520" levelbias="0.400" overlap="1" levelingpitch="0" levelingroll="0" leveltilesize="510">
+      <level predecode="0" width="1520" height="1520" preload="0"/>
+      <level predecode="0" width="760" height="760" preload="0"/>
+      <level predecode="1" width="380" height="380" preload="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start fov="100" projection="4" tilt="-24.93" pan="95.2"/>
-      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fovstereographic="270" fov="120" scaletofit="1" fovfisheye="360" tilt="90" pan="360"/>
+    <view fovmode="0" pannorth="0">
+      <start pan="95.2" projection="4" fov="100" tilt="-24.93"/>
+      <flyin pan="0" projection="9" fov="170" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" fov="120" fovstereographic="270" tilt="90" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata altitude="4.20" customnodeid="" copyright="" heading="0" datetime="08/04/2021 17:01" latitude="25.551972" comment="" source="" title="North Pool" author="" tags="jpg convert" longitude="-80.405250" nodeid="node5" description="" info=""/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label enabled="1" wordwrap="1" border="1" backgroundcolor="0x000000" borderalpha="1" height="20" borderradius="1" width="180" textcolor="0xffffff" backgroundalpha="1" textalpha="1" background="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" mode="1" backgroundalpha="0.25098" bordercolor="0x0000ff"/>
-      <hotspot target="118.4/-16.1/100.0" distance="3.11346" url="{node4}" id="Point01" tilt="-15.76" skinid="ht_node" pan="-180.41" title="North East Pool" description=""/>
-      <hotspot target="" distance="2.80894" url="{node6}" id="Point02" tilt="-4.46" skinid="ht_node" pan="-356.36" title="North West Pool" description=""/>
-      <hotspot target="-179.2/-34.9/100.0" distance="8.3866" url="{node11}" id="Point03" tilt="-3.88" skinid="ht_node" pan="-269.57" title="South Pool" description=""/>
-      <hotspot target="$fwd" distance="5.61789" url="{node1}" id="Point04" tilt="0" skinid="ht_node" pan="-90" title="South East Pool" description=""/>
-      <hotspot target="$fwd" distance="5.61789" url="{node2}" id="Point05" tilt="0" skinid="ht_node" pan="-90" title="Bar" description=""/>
-      <hotspot target="" distance="2.80894" url="{node3}" id="Point06" tilt="-10.92" skinid="ht_node" pan="-229.56" title="Bar 2" description=""/>
+    <userdata customnodeid="" nodeid="node5" description="" datetime="08/04/2021 17:01" source="" comment="" info="" longitude="-80.405250" title="North Pool" tags="jpg convert" latitude="25.551972" altitude="4.20" heading="0" author="" copyright=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label textcolor="0xffffff" border="1" borderalpha="1" width="180" enabled="1" textalpha="1" height="20" bordercolor="0x000000" backgroundalpha="1" wordwrap="1" background="1" borderradius="1" backgroundcolor="0x000000"/>
+      <polystyle mode="1" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" distance="3.11346" pan="-180.41" tilt="-15.76" description="" url="{node4}" target="118.4/-16.1/100.0" title="North East Pool" skinid="ht_node"/>
+      <hotspot id="Point02" distance="2.80894" pan="-356.36" tilt="-4.46" description="" url="{node6}" target="" title="North West Pool" skinid="ht_node"/>
+      <hotspot id="Point03" distance="8.3866" pan="-269.57" tilt="-3.88" description="" url="{node11}" target="-179.2/-34.9/100.0" title="South Pool" skinid="ht_node"/>
+      <hotspot id="Point04" distance="5.61789" pan="-90" tilt="0" description="" url="{node1}" target="$fwd" title="South East Pool" skinid="ht_node"/>
+      <hotspot id="Point05" distance="5.61789" pan="-90" tilt="0" description="" url="{node2}" target="$fwd" title="Bar" skinid="ht_node"/>
+      <hotspot id="Point06" distance="2.80894" pan="-229.56" tilt="-10.92" description="" url="{node3}" target="" title="Bar 2" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition enabled="1" softedge="0" zoomout="0" blendtime="1" type="crossdissolve" zoomoutpause="1" zoomspeed="2" zoomfov="20" zoomafteroutfov="20" zoomafterinfov="90" zoomin="0" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
-    <control sensitivity="8" lockedmouse="0" speedwheel="1" simulatemass="1" lockedkeyboardzoom="0" contextfullscreen="1" contextprojections="0" lockedkeyboard="0" lockedwheel="0" invertwheel="0" invertcontrol="1" hideabout="0" rubberband="0" dblclickfullscreen="0"/>
+    <transition zoomout="0" zoomfov="20" zoomafterinfov="90" zoomoutpause="1" enabled="1" blendtime="1" zoomin="0" softedge="0" zoomafteroutfov="20" blendcolor="0x000000" type="crossdissolve" zoomspeed="2"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control lockedkeyboardzoom="0" sensitivity="8" lockedmouse="0" lockedwheel="0" dblclickfullscreen="0" simulatemass="1" rubberband="0" invertwheel="0" contextprojections="0" invertcontrol="1" hideabout="0" speedwheel="1" lockedkeyboard="0" contextfullscreen="1"/>
   </panorama>
   <panorama id="node6">
-    <input height="1520" levelingpitch="0" width="1520" leveltilesize="510" levelbias="0.400" levelbiashidpi="1.000" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1">
-      <level predecode="0" height="1520" width="1520" preload="0"/>
-      <level predecode="0" height="760" width="760" preload="0"/>
-      <level predecode="1" height="380" width="380" preload="1"/>
+    <input leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1520" levelbiashidpi="1.000" height="1520" levelbias="0.400" overlap="1" levelingpitch="0" levelingroll="0" leveltilesize="510">
+      <level predecode="0" width="1520" height="1520" preload="0"/>
+      <level predecode="0" width="760" height="760" preload="0"/>
+      <level predecode="1" width="380" height="380" preload="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start fov="100" projection="4" tilt="-14.16" pan="78.47"/>
-      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fovstereographic="270" fov="120" scaletofit="1" fovfisheye="360" tilt="90" pan="360"/>
+    <view fovmode="0" pannorth="0">
+      <start pan="78.47" projection="4" fov="100" tilt="-14.16"/>
+      <flyin pan="0" projection="9" fov="170" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" fov="120" fovstereographic="270" tilt="90" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata altitude="4.20" customnodeid="" copyright="" heading="0" datetime="08/04/2021 17:02" latitude="25.551972" comment="" source="" title="North West Pool" author="" tags="jpg convert" longitude="-80.405278" nodeid="node6" description="" info=""/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label enabled="1" wordwrap="1" border="1" backgroundcolor="0x000000" borderalpha="1" height="20" borderradius="1" width="180" textcolor="0xffffff" backgroundalpha="1" textalpha="1" background="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" mode="1" backgroundalpha="0.25098" bordercolor="0x0000ff"/>
-      <hotspot target="95.2/-24.9/100.0" distance="2.80894" url="{node5}" id="Point01" tilt="-17.3" skinid="ht_node" pan="-210.56" title="North Pool" description=""/>
-      <hotspot target="34.7/-29.9/100.0" url="{node7}" id="Point02" tilt="-12.38" skinid="ht_node" pan="-313.95" title="Jacuzzi Left" description=""/>
-      <hotspot target="-172.3/-27.3/100.0" distance="10.4779" url="{node11}" id="Point03" tilt="-3.54" skinid="ht_node" pan="-292.47" title="South Pool" description=""/>
-      <hotspot target="$fwd" distance="8.42683" url="{node1}" id="Point04" tilt="0" skinid="ht_node" pan="-90" title="South East Pool" description=""/>
-      <hotspot target="$fwd" distance="8.42683" url="{node2}" id="Point05" tilt="0" skinid="ht_node" pan="-90" title="Bar" description=""/>
-      <hotspot target="$fwd" distance="4.1933" url="{node4}" id="Point07" tilt="0" skinid="ht_node" pan="-137.943" title="North East Pool" description=""/>
-      <hotspot target="$fwd" distance="6.42295" url="{node10}" id="Point10" tilt="0" skinid="ht_node" pan="-61.0046" title="South West Pool" description=""/>
+    <userdata customnodeid="" nodeid="node6" description="" datetime="08/04/2021 17:02" source="" comment="" info="" longitude="-80.405278" title="North West Pool" tags="jpg convert" latitude="25.551972" altitude="4.20" heading="0" author="" copyright=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label textcolor="0xffffff" border="1" borderalpha="1" width="180" enabled="1" textalpha="1" height="20" bordercolor="0x000000" backgroundalpha="1" wordwrap="1" background="1" borderradius="1" backgroundcolor="0x000000"/>
+      <polystyle mode="1" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" distance="2.80894" pan="-210.56" tilt="-17.3" description="" url="{node5}" target="95.2/-24.9/100.0" title="North Pool" skinid="ht_node"/>
+      <hotspot id="Point02" pan="-313.95" tilt="-12.38" description="" url="{node7}" target="34.7/-29.9/100.0" title="Jacuzzi Left" skinid="ht_node"/>
+      <hotspot id="Point03" distance="10.4779" pan="-292.47" tilt="-3.54" description="" url="{node11}" target="-172.3/-27.3/100.0" title="South Pool" skinid="ht_node"/>
+      <hotspot id="Point04" distance="8.42683" pan="-90" tilt="0" description="" url="{node1}" target="$fwd" title="South East Pool" skinid="ht_node"/>
+      <hotspot id="Point05" distance="8.42683" pan="-90" tilt="0" description="" url="{node2}" target="$fwd" title="Bar" skinid="ht_node"/>
+      <hotspot id="Point07" distance="4.1933" pan="-137.943" tilt="0" description="" url="{node4}" target="$fwd" title="North East Pool" skinid="ht_node"/>
+      <hotspot id="Point10" distance="6.42295" pan="-61.0046" tilt="0" description="" url="{node10}" target="$fwd" title="South West Pool" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition enabled="1" softedge="0" zoomout="0" blendtime="1" type="crossdissolve" zoomoutpause="1" zoomspeed="2" zoomfov="20" zoomafteroutfov="20" zoomafterinfov="90" zoomin="0" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
-    <control sensitivity="8" lockedmouse="0" speedwheel="1" simulatemass="1" lockedkeyboardzoom="0" contextfullscreen="1" contextprojections="0" lockedkeyboard="0" lockedwheel="0" invertwheel="0" invertcontrol="1" hideabout="0" rubberband="0" dblclickfullscreen="0"/>
+    <transition zoomout="0" zoomfov="20" zoomafterinfov="90" zoomoutpause="1" enabled="1" blendtime="1" zoomin="0" softedge="0" zoomafteroutfov="20" blendcolor="0x000000" type="crossdissolve" zoomspeed="2"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control lockedkeyboardzoom="0" sensitivity="8" lockedmouse="0" lockedwheel="0" dblclickfullscreen="0" simulatemass="1" rubberband="0" invertwheel="0" contextprojections="0" invertcontrol="1" hideabout="0" speedwheel="1" lockedkeyboard="0" contextfullscreen="1"/>
   </panorama>
   <panorama id="node7">
-    <input height="1520" levelingpitch="0" width="1520" leveltilesize="510" levelbias="0.400" levelbiashidpi="1.000" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1">
-      <level predecode="0" height="1520" width="1520" preload="0"/>
-      <level predecode="0" height="760" width="760" preload="0"/>
-      <level predecode="1" height="380" width="380" preload="1"/>
+    <input leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1520" levelbiashidpi="1.000" height="1520" levelbias="0.400" overlap="1" levelingpitch="0" levelingroll="0" leveltilesize="510">
+      <level predecode="0" width="1520" height="1520" preload="0"/>
+      <level predecode="0" width="760" height="760" preload="0"/>
+      <level predecode="1" width="380" height="380" preload="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start fov="100" projection="4" tilt="0" pan="0"/>
-      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fovstereographic="270" fov="120" scaletofit="1" fovfisheye="360" tilt="90" pan="360"/>
+    <view fovmode="0" pannorth="0">
+      <start pan="0" projection="4" fov="100" tilt="0"/>
+      <flyin pan="0" projection="9" fov="170" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" fov="120" fovstereographic="270" tilt="90" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata altitude="3.80" customnodeid="" copyright="" heading="0" datetime="08/04/2021 17:04" latitude="25.551972" comment="" source="" title="Jacuzzi Left" author="" tags="jpg convert" longitude="-80.405278" nodeid="node7" description="" info=""/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label enabled="1" wordwrap="1" border="1" backgroundcolor="0x000000" borderalpha="1" height="20" borderradius="1" width="180" textcolor="0xffffff" backgroundalpha="1" textalpha="1" background="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" mode="1" backgroundalpha="0.25098" bordercolor="0x0000ff"/>
-      <hotspot target="78.5/-14.2/100.0" url="{node6}" id="Point01" tilt="-25.71" skinid="ht_node" pan="-220.13" title="North West Pool" description=""/>
-      <hotspot target="129.6/-29.2/100.0" distance="4.1933" url="{node9}" id="Point02" tilt="-11.65" skinid="ht_node" pan="-34.5" title="Jacuzzi Right" description=""/>
-      <hotspot target="123.1/-29.4/100.0" url="{node3}" id="Point04" tilt="-5.15" skinid="ht_node" pan="-310.47" title="Bar 2" description=""/>
-      <hotspot target="$fwd" distance="4.1933" url="{node4}" id="Point07" tilt="0" skinid="ht_node" pan="-137.943" title="North East Pool" description=""/>
-      <hotspot target="-172.3/-27.3/100.0" distance="10.4779" url="{node11}" id="Point03" tilt="0.52" skinid="ht_node" pan="-11.78" title="South Pool" description=""/>
+    <userdata customnodeid="" nodeid="node7" description="" datetime="08/04/2021 17:04" source="" comment="" info="" longitude="-80.405278" title="Jacuzzi Left" tags="jpg convert" latitude="25.551972" altitude="3.80" heading="0" author="" copyright=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label textcolor="0xffffff" border="1" borderalpha="1" width="180" enabled="1" textalpha="1" height="20" bordercolor="0x000000" backgroundalpha="1" wordwrap="1" background="1" borderradius="1" backgroundcolor="0x000000"/>
+      <polystyle mode="1" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" pan="-220.13" tilt="-25.71" description="" url="{node6}" target="78.5/-14.2/100.0" title="North West Pool" skinid="ht_node"/>
+      <hotspot id="Point02" distance="4.1933" pan="-34.5" tilt="-11.65" description="" url="{node9}" target="129.6/-29.2/100.0" title="Jacuzzi Right" skinid="ht_node"/>
+      <hotspot id="Point04" pan="-310.47" tilt="-5.15" description="" url="{node3}" target="123.1/-29.4/100.0" title="Bar 2" skinid="ht_node"/>
+      <hotspot id="Point07" distance="4.1933" pan="-137.943" tilt="0" description="" url="{node4}" target="$fwd" title="North East Pool" skinid="ht_node"/>
+      <hotspot id="Point03" distance="10.4779" pan="-11.78" tilt="0.52" description="" url="{node11}" target="-172.3/-27.3/100.0" title="South Pool" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition enabled="1" softedge="0" zoomout="0" blendtime="1" type="crossdissolve" zoomoutpause="1" zoomspeed="2" zoomfov="20" zoomafteroutfov="20" zoomafterinfov="90" zoomin="0" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
-    <control sensitivity="8" lockedmouse="0" speedwheel="1" simulatemass="1" lockedkeyboardzoom="0" contextfullscreen="1" contextprojections="0" lockedkeyboard="0" lockedwheel="0" invertwheel="0" invertcontrol="1" hideabout="0" rubberband="0" dblclickfullscreen="0"/>
+    <transition zoomout="0" zoomfov="20" zoomafterinfov="90" zoomoutpause="1" enabled="1" blendtime="1" zoomin="0" softedge="0" zoomafteroutfov="20" blendcolor="0x000000" type="crossdissolve" zoomspeed="2"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control lockedkeyboardzoom="0" sensitivity="8" lockedmouse="0" lockedwheel="0" dblclickfullscreen="0" simulatemass="1" rubberband="0" invertwheel="0" contextprojections="0" invertcontrol="1" hideabout="0" speedwheel="1" lockedkeyboard="0" contextfullscreen="1"/>
   </panorama>
   <panorama id="node8">
-    <input height="1520" levelingpitch="0" width="1520" leveltilesize="510" levelbias="0.400" levelbiashidpi="1.000" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1">
-      <level predecode="0" height="1520" width="1520" preload="0"/>
-      <level predecode="0" height="760" width="760" preload="0"/>
-      <level predecode="1" height="380" width="380" preload="1"/>
+    <input leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1520" levelbiashidpi="1.000" height="1520" levelbias="0.400" overlap="1" levelingpitch="0" levelingroll="0" leveltilesize="510">
+      <level predecode="0" width="1520" height="1520" preload="0"/>
+      <level predecode="0" width="760" height="760" preload="0"/>
+      <level predecode="1" width="380" height="380" preload="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start fov="92.44" projection="4" tilt="-29.7" pan="64.24"/>
-      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fovstereographic="270" fov="120" scaletofit="1" fovfisheye="360" tilt="90" pan="360"/>
+    <view fovmode="0" pannorth="0">
+      <start pan="64.24" projection="4" fov="92.44" tilt="-29.7"/>
+      <flyin pan="0" projection="9" fov="170" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" fov="120" fovstereographic="270" tilt="90" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata altitude="4.00" customnodeid="" copyright="" heading="0" datetime="08/04/2021 17:06" latitude="25.552000" comment="" source="" title="Jacuzzy" author="" tags="jpg convert" longitude="-80.405278" nodeid="node8" description="" info=""/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label enabled="1" wordwrap="1" border="1" backgroundcolor="0x000000" borderalpha="1" height="20" borderradius="1" width="180" textcolor="0xffffff" backgroundalpha="1" textalpha="1" background="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" mode="1" backgroundalpha="0.25098" bordercolor="0x0000ff"/>
-      <hotspot target="143.5/-23.7/100.0" distance="2.80894" url="{node9}" id="Point02" tilt="-16.84" skinid="ht_node" pan="-337.3" title="Jacuzzi Right" description=""/>
-      <hotspot target="0.0/0.0/100.0" distance="3.11346" url="{node7}" id="Point03" tilt="-21.2" skinid="ht_node" pan="-267.41" title="Jacuzzi Left" description=""/>
-      <hotspot target="$fwd" distance="8.9836" url="{node1}" id="Point04" tilt="0" skinid="ht_node" pan="-110.278" title="South East Pool" description=""/>
-      <hotspot target="$fwd" distance="8.9836" url="{node2}" id="Point05" tilt="0" skinid="ht_node" pan="-110.278" title="Bar" description=""/>
-      <hotspot target="$fwd" distance="3.11346" url="{node3}" id="Point06" tilt="0" skinid="ht_node" pan="180" title="Bar 2" description=""/>
-      <hotspot target="$fwd" distance="6.83115" url="{node4}" id="Point07" tilt="0" skinid="ht_node" pan="-155.72" title="North East Pool" description=""/>
-      <hotspot target="$fwd" distance="4.1933" url="{node5}" id="Point08" tilt="0" skinid="ht_node" pan="-137.943" title="North Pool" description=""/>
-      <hotspot target="$fwd" distance="3.11346" url="{node6}" id="Point09" tilt="0" skinid="ht_node" pan="180" title="North West Pool" description=""/>
-      <hotspot target="$fwd" distance="5.61789" url="{node10}" id="Point10" tilt="0" skinid="ht_node" pan="-90" title="South West Pool" description=""/>
-      <hotspot target="$fwd" distance="8.9836" url="{node11}" id="Point11" tilt="0" skinid="ht_node" pan="-69.7222" title="South Pool" description=""/>
-      <hotspot target="-145.1/-34.3/100.0" distance="8.9836" url="{node1}" id="Point12" tilt="-1.11" skinid="ht_node" pan="-329.74" title="Jacuzzi Left" description=""/>
-      <polyhotspot target="126.0/-29.9/100.0" url="{node3}" id="Poly01" title="Bar" description="">
+    <userdata customnodeid="" nodeid="node8" description="" datetime="08/04/2021 17:06" source="" comment="" info="" longitude="-80.405278" title="Jacuzzy" tags="jpg convert" latitude="25.552000" altitude="4.00" heading="0" author="" copyright=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label textcolor="0xffffff" border="1" borderalpha="1" width="180" enabled="1" textalpha="1" height="20" bordercolor="0x000000" backgroundalpha="1" wordwrap="1" background="1" borderradius="1" backgroundcolor="0x000000"/>
+      <polystyle mode="1" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point02" distance="2.80894" pan="-337.3" tilt="-16.84" description="" url="{node9}" target="143.5/-23.7/100.0" title="Jacuzzi Right" skinid="ht_node"/>
+      <hotspot id="Point03" distance="3.11346" pan="-267.41" tilt="-21.2" description="" url="{node7}" target="0.0/0.0/100.0" title="Jacuzzi Left" skinid="ht_node"/>
+      <hotspot id="Point04" distance="8.9836" pan="-110.278" tilt="0" description="" url="{node1}" target="$fwd" title="South East Pool" skinid="ht_node"/>
+      <hotspot id="Point05" distance="8.9836" pan="-110.278" tilt="0" description="" url="{node2}" target="$fwd" title="Bar" skinid="ht_node"/>
+      <hotspot id="Point06" distance="3.11346" pan="180" tilt="0" description="" url="{node3}" target="$fwd" title="Bar 2" skinid="ht_node"/>
+      <hotspot id="Point07" distance="6.83115" pan="-155.72" tilt="0" description="" url="{node4}" target="$fwd" title="North East Pool" skinid="ht_node"/>
+      <hotspot id="Point08" distance="4.1933" pan="-137.943" tilt="0" description="" url="{node5}" target="$fwd" title="North Pool" skinid="ht_node"/>
+      <hotspot id="Point09" distance="3.11346" pan="180" tilt="0" description="" url="{node6}" target="$fwd" title="North West Pool" skinid="ht_node"/>
+      <hotspot id="Point10" distance="5.61789" pan="-90" tilt="0" description="" url="{node10}" target="$fwd" title="South West Pool" skinid="ht_node"/>
+      <hotspot id="Point11" distance="8.9836" pan="-69.7222" tilt="0" description="" url="{node11}" target="$fwd" title="South Pool" skinid="ht_node"/>
+      <hotspot id="Point12" distance="8.9836" pan="-329.74" tilt="-1.11" description="" url="{node1}" target="-145.1/-34.3/100.0" title="Jacuzzi Left" skinid="ht_node"/>
+      <hotspot id="Point01" pan="-308.92" tilt="-40.21" description="" url="media/WhatsApp Video 2021-04-15 at 9.29.49 AM.mp4" target="" title="Jacuzzi" skinid="ht_video_file"/>
+      <polyhotspot id="Poly01" description="" url="{node3}" target="126.0/-29.9/100.0" title="Bar">
         <polystring>-291.47/-6.39|-291.47/-7.03|-292.58/-6.91|-291.91/-8.2|-292.09/-9.04|-309.38/-7.33|-309.34/-6.39|-308.25/-5.47|-309.72/-5.13|-309.4/-4.69</polystring>
       </polyhotspot>
     </hotspots>
     <media/>
-    <transition enabled="1" softedge="0" zoomout="0" blendtime="1" type="crossdissolve" zoomoutpause="1" zoomspeed="2" zoomfov="20" zoomafteroutfov="20" zoomafterinfov="90" zoomin="0" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
-    <control sensitivity="8" lockedmouse="0" speedwheel="1" simulatemass="1" lockedkeyboardzoom="0" contextfullscreen="1" contextprojections="0" lockedkeyboard="0" lockedwheel="0" invertwheel="0" invertcontrol="1" hideabout="0" rubberband="0" dblclickfullscreen="0"/>
+    <transition zoomout="0" zoomfov="20" zoomafterinfov="90" zoomoutpause="1" enabled="1" blendtime="1" zoomin="0" softedge="0" zoomafteroutfov="20" blendcolor="0x000000" type="crossdissolve" zoomspeed="2"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control lockedkeyboardzoom="0" sensitivity="8" lockedmouse="0" lockedwheel="0" dblclickfullscreen="0" simulatemass="1" rubberband="0" invertwheel="0" contextprojections="0" invertcontrol="1" hideabout="0" speedwheel="1" lockedkeyboard="0" contextfullscreen="1"/>
   </panorama>
   <panorama id="node9">
-    <input height="1520" levelingpitch="0" width="1520" leveltilesize="510" levelbias="0.400" levelbiashidpi="1.000" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1">
-      <level predecode="0" height="1520" width="1520" preload="0"/>
-      <level predecode="0" height="760" width="760" preload="0"/>
-      <level predecode="1" height="380" width="380" preload="1"/>
+    <input leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1520" levelbiashidpi="1.000" height="1520" levelbias="0.400" overlap="1" levelingpitch="0" levelingroll="0" leveltilesize="510">
+      <level predecode="0" width="1520" height="1520" preload="0"/>
+      <level predecode="0" width="760" height="760" preload="0"/>
+      <level predecode="1" width="380" height="380" preload="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start fov="100" projection="4" tilt="-23.74" pan="143.46"/>
-      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fovstereographic="270" fov="120" scaletofit="1" fovfisheye="360" tilt="90" pan="360"/>
+    <view fovmode="0" pannorth="0">
+      <start pan="143.46" projection="4" fov="100" tilt="-23.74"/>
+      <flyin pan="0" projection="9" fov="170" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" fov="120" fovstereographic="270" tilt="90" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata altitude="4.10" customnodeid="" copyright="" heading="0" datetime="08/04/2021 17:07" latitude="25.552000" comment="" source="" title="Jacuzzi Right" author="" tags="jpg convert" longitude="-80.405306" nodeid="node9" description="" info=""/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label enabled="1" wordwrap="1" border="1" backgroundcolor="0x000000" borderalpha="1" height="20" borderradius="1" width="180" textcolor="0xffffff" backgroundalpha="1" textalpha="1" background="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" mode="1" backgroundalpha="0.25098" bordercolor="0x0000ff"/>
-      <hotspot target="99.5/-35.0/100.0" distance="4.1933" url="{node7}" id="Point01" tilt="-19.55" skinid="ht_node" pan="-131.54" title="Jacuzzi Left" description=""/>
-      <hotspot target="171.4/-16.5/100.0" distance="8.42683" url="{node10}" id="Point02" tilt="-16.72" skinid="ht_node" pan="-309.54" title="South West Pool" description=""/>
-      <hotspot target="114.2/-30.6/100.0" distance="4.1933" url="{node3}" id="Point03" tilt="-12.82" skinid="ht_node" pan="-216.92" title="Bar 2" description=""/>
+    <userdata customnodeid="" nodeid="node9" description="" datetime="08/04/2021 17:07" source="" comment="" info="" longitude="-80.405306" title="Jacuzzi Right" tags="jpg convert" latitude="25.552000" altitude="4.10" heading="0" author="" copyright=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label textcolor="0xffffff" border="1" borderalpha="1" width="180" enabled="1" textalpha="1" height="20" bordercolor="0x000000" backgroundalpha="1" wordwrap="1" background="1" borderradius="1" backgroundcolor="0x000000"/>
+      <polystyle mode="1" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" distance="4.1933" pan="-131.54" tilt="-19.55" description="" url="{node7}" target="99.5/-35.0/100.0" title="Jacuzzi Left" skinid="ht_node"/>
+      <hotspot id="Point02" distance="8.42683" pan="-309.54" tilt="-16.72" description="" url="{node10}" target="171.4/-16.5/100.0" title="South West Pool" skinid="ht_node"/>
+      <hotspot id="Point03" distance="4.1933" pan="-216.92" tilt="-12.82" description="" url="{node3}" target="114.2/-30.6/100.0" title="Bar 2" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition enabled="1" softedge="0" zoomout="0" blendtime="1" type="crossdissolve" zoomoutpause="1" zoomspeed="2" zoomfov="20" zoomafteroutfov="20" zoomafterinfov="90" zoomin="0" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
-    <control sensitivity="8" lockedmouse="0" speedwheel="1" simulatemass="1" lockedkeyboardzoom="0" contextfullscreen="1" contextprojections="0" lockedkeyboard="0" lockedwheel="0" invertwheel="0" invertcontrol="1" hideabout="0" rubberband="0" dblclickfullscreen="0"/>
+    <transition zoomout="0" zoomfov="20" zoomafterinfov="90" zoomoutpause="1" enabled="1" blendtime="1" zoomin="0" softedge="0" zoomafteroutfov="20" blendcolor="0x000000" type="crossdissolve" zoomspeed="2"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control lockedkeyboardzoom="0" sensitivity="8" lockedmouse="0" lockedwheel="0" dblclickfullscreen="0" simulatemass="1" rubberband="0" invertwheel="0" contextprojections="0" invertcontrol="1" hideabout="0" speedwheel="1" lockedkeyboard="0" contextfullscreen="1"/>
   </panorama>
   <panorama id="node10">
-    <input height="1520" levelingpitch="0" width="1520" leveltilesize="510" levelbias="0.400" levelbiashidpi="1.000" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1">
-      <level predecode="0" height="1520" width="1520" preload="0"/>
-      <level predecode="0" height="760" width="760" preload="0"/>
-      <level predecode="1" height="380" width="380" preload="1"/>
+    <input leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1520" levelbiashidpi="1.000" height="1520" levelbias="0.400" overlap="1" levelingpitch="0" levelingroll="0" leveltilesize="510">
+      <level predecode="0" width="1520" height="1520" preload="0"/>
+      <level predecode="0" width="760" height="760" preload="0"/>
+      <level predecode="1" width="380" height="380" preload="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start fov="100" projection="4" tilt="-25.31" pan="173.81"/>
-      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fovstereographic="270" fov="120" scaletofit="1" fovfisheye="360" tilt="90" pan="360"/>
+    <view fovmode="0" pannorth="0">
+      <start pan="173.81" projection="4" fov="100" tilt="-25.31"/>
+      <flyin pan="0" projection="9" fov="170" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" fov="120" fovstereographic="270" tilt="90" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata altitude="4.10" customnodeid="" copyright="" heading="0" datetime="08/04/2021 17:09" latitude="25.552000" comment="" source="" title="South West Pool" author="" tags="jpg convert" longitude="-80.405222" nodeid="node10" description="" info=""/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label enabled="1" wordwrap="1" border="1" backgroundcolor="0x000000" borderalpha="1" height="20" borderradius="1" width="180" textcolor="0xffffff" backgroundalpha="1" textalpha="1" background="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" mode="1" backgroundalpha="0.25098" bordercolor="0x0000ff"/>
-      <hotspot target="147.3/-25.4/100.0" distance="8.42683" url="{node9}" id="Point01" tilt="-23.39" skinid="ht_node" pan="-140.39" title="Jacuzzi Right" description=""/>
-      <hotspot target="-172.3/-27.3/100.0" distance="4.1933" url="{node11}" id="Point02" tilt="-24.65" skinid="ht_node" pan="-234.08" title="South Pool" description=""/>
-      <hotspot target="$fwd" distance="5.61789" url="{node8}" id="Point10" tilt="0" skinid="ht_node" pan="90" title="Jacuzzy" description=""/>
+    <userdata customnodeid="" nodeid="node10" description="" datetime="08/04/2021 17:09" source="" comment="" info="" longitude="-80.405222" title="South West Pool" tags="jpg convert" latitude="25.552000" altitude="4.10" heading="0" author="" copyright=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label textcolor="0xffffff" border="1" borderalpha="1" width="180" enabled="1" textalpha="1" height="20" bordercolor="0x000000" backgroundalpha="1" wordwrap="1" background="1" borderradius="1" backgroundcolor="0x000000"/>
+      <polystyle mode="1" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" distance="8.42683" pan="-140.39" tilt="-23.39" description="" url="{node9}" target="147.3/-25.4/100.0" title="Jacuzzi Right" skinid="ht_node"/>
+      <hotspot id="Point02" distance="4.1933" pan="-234.08" tilt="-24.65" description="" url="{node11}" target="-172.3/-27.3/100.0" title="South Pool" skinid="ht_node"/>
+      <hotspot id="Point10" distance="5.61789" pan="90" tilt="0" description="" url="{node8}" target="$fwd" title="Jacuzzy" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition enabled="1" softedge="0" zoomout="0" blendtime="1" type="crossdissolve" zoomoutpause="1" zoomspeed="2" zoomfov="20" zoomafteroutfov="20" zoomafterinfov="90" zoomin="0" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
-    <control sensitivity="8" lockedmouse="0" speedwheel="1" simulatemass="1" lockedkeyboardzoom="0" contextfullscreen="1" contextprojections="0" lockedkeyboard="0" lockedwheel="0" invertwheel="0" invertcontrol="1" hideabout="0" rubberband="0" dblclickfullscreen="0"/>
+    <transition zoomout="0" zoomfov="20" zoomafterinfov="90" zoomoutpause="1" enabled="1" blendtime="1" zoomin="0" softedge="0" zoomafteroutfov="20" blendcolor="0x000000" type="crossdissolve" zoomspeed="2"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control lockedkeyboardzoom="0" sensitivity="8" lockedmouse="0" lockedwheel="0" dblclickfullscreen="0" simulatemass="1" rubberband="0" invertwheel="0" contextprojections="0" invertcontrol="1" hideabout="0" speedwheel="1" lockedkeyboard="0" contextfullscreen="1"/>
   </panorama>
   <panorama id="node11">
-    <input height="1520" levelingpitch="0" width="1520" leveltilesize="510" levelbias="0.400" levelbiashidpi="1.000" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" overlap="1">
-      <level predecode="0" height="1520" width="1520" preload="0"/>
-      <level predecode="0" height="760" width="760" preload="0"/>
-      <level predecode="1" height="380" width="380" preload="1"/>
+    <input leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1520" levelbiashidpi="1.000" height="1520" levelbias="0.400" overlap="1" levelingpitch="0" levelingroll="0" leveltilesize="510">
+      <level predecode="0" width="1520" height="1520" preload="0"/>
+      <level predecode="0" width="760" height="760" preload="0"/>
+      <level predecode="1" width="380" height="380" preload="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start fov="100" projection="4" tilt="-27.3" pan="-172.3"/>
-      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fovstereographic="270" fov="120" scaletofit="1" fovfisheye="360" tilt="90" pan="360"/>
+    <view fovmode="0" pannorth="0">
+      <start pan="-172.3" projection="4" fov="100" tilt="-27.3"/>
+      <flyin pan="0" projection="9" fov="170" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" fov="120" fovstereographic="270" tilt="90" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata altitude="4.10" customnodeid="" copyright="" heading="0" datetime="08/04/2021 17:11" latitude="25.552028" comment="" source="" title="South Pool" author="" tags="jpg convert" longitude="-80.405194" nodeid="node11" description="" info=""/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label enabled="1" wordwrap="1" border="1" backgroundcolor="0x000000" borderalpha="1" height="20" borderradius="1" width="180" textcolor="0xffffff" backgroundalpha="1" textalpha="1" background="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" mode="1" backgroundalpha="0.25098" bordercolor="0x0000ff"/>
-      <hotspot target="173.8/-25.3/100.0" distance="4.1933" url="{node10}" id="Point01" tilt="-13.81" skinid="ht_node" pan="-79.9" title="South West Pool" description=""/>
-      <hotspot target="-144.9/-21.8/100.0" distance="6.22692" url="{node1}" id="Point02" tilt="-25.69" skinid="ht_node" pan="-261.15" title="South East Pool" description=""/>
-      <hotspot target="95.2/-24.9/100.0" distance="8.3866" url="{node5}" id="Point03" tilt="-9.45" skinid="ht_node" pan="-167.66" title="North Pool" description=""/>
-      <polyhotspot target="" url="" id="Poly01" title="Jacuzzi" description="">
+    <userdata customnodeid="" nodeid="node11" description="" datetime="08/04/2021 17:11" source="" comment="" info="" longitude="-80.405194" title="South Pool" tags="jpg convert" latitude="25.552028" altitude="4.10" heading="0" author="" copyright=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label textcolor="0xffffff" border="1" borderalpha="1" width="180" enabled="1" textalpha="1" height="20" bordercolor="0x000000" backgroundalpha="1" wordwrap="1" background="1" borderradius="1" backgroundcolor="0x000000"/>
+      <polystyle mode="1" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" backgroundcolor="0x0000ff"/>
+      <hotspot id="Point01" distance="4.1933" pan="-79.9" tilt="-13.81" description="" url="{node10}" target="173.8/-25.3/100.0" title="South West Pool" skinid="ht_node"/>
+      <hotspot id="Point02" distance="6.22692" pan="-261.15" tilt="-25.69" description="" url="{node1}" target="-144.9/-21.8/100.0" title="South East Pool" skinid="ht_node"/>
+      <hotspot id="Point03" distance="8.3866" pan="-167.66" tilt="-9.45" description="" url="{node5}" target="95.2/-24.9/100.0" title="North Pool" skinid="ht_node"/>
+      <polyhotspot id="Poly01" description="" url="{node8}" target="64.2/-29.7/92.4" title="Jacuzzi">
         <polystring>-120.43/-11.11|-129.38/-14.82|-143.57/-12.36|-130.45/-9.81</polystring>
       </polyhotspot>
-      <polyhotspot target="-157.5/-55.9/100.0" url="{node3}" id="Poly02" title="Bar" description="">
+      <polyhotspot id="Poly02" description="" url="{node3}" target="-157.5/-55.9/100.0" title="Bar">
         <polystring>-192.23/-19.61|-192.45/-16.06|-197.82/-14.95|-211.4/-18.65|-201.98/-21.46|-202/-24.3|-202.22/-24.44</polystring>
       </polyhotspot>
     </hotspots>
     <media/>
-    <transition enabled="1" softedge="0" zoomout="0" blendtime="1" type="crossdissolve" zoomoutpause="1" zoomspeed="2" zoomfov="20" zoomafteroutfov="20" zoomafterinfov="90" zoomin="0" blendcolor="0x000000"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
-    <control sensitivity="8" lockedmouse="0" speedwheel="1" simulatemass="1" lockedkeyboardzoom="0" contextfullscreen="1" contextprojections="0" lockedkeyboard="0" lockedwheel="0" invertwheel="0" invertcontrol="1" hideabout="0" rubberband="0" dblclickfullscreen="0"/>
+    <transition zoomout="0" zoomfov="20" zoomafterinfov="90" zoomoutpause="1" enabled="1" blendtime="1" zoomin="0" softedge="0" zoomafteroutfov="20" blendcolor="0x000000" type="crossdissolve" zoomspeed="2"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control lockedkeyboardzoom="0" sensitivity="8" lockedmouse="0" lockedwheel="0" dblclickfullscreen="0" simulatemass="1" rubberband="0" invertwheel="0" contextprojections="0" invertcontrol="1" hideabout="0" speedwheel="1" lockedkeyboard="0" contextfullscreen="1"/>
   </panorama>
   <masternode>
-    <userdata customnodeid="" copyright="" heading="0" datetime="" latitude="" comment="" source="" title="" author="" tags="" longitude="" nodeid="master" description="" info=""/>
+    <userdata customnodeid="" nodeid="master" description="" datetime="" source="" comment="" info="" longitude="" title="" tags="" latitude="" heading="0" author="" copyright=""/>
   </masternode>
 </tour>
